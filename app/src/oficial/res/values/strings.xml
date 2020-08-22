@@ -1,0 +1,1105 @@
+<resources>
+    <string name="app_name">SisCovid</string>
+
+    <string name="acceso_titulo">COVID 19</string>
+    <string name="acceso_usuari">USUARIO</string>
+    <string name="acceso_contra">CONTRASEÑA</string>
+    <string name="acceso_ingres">INGRESAR</string>
+
+    <string name="formul_opcn01x">\nF100 FICHA ABREVIADA\nDE PRUEBARÁPIDA\n</string>
+    <string name="formul_opcn02x">\nF200 FICHA DE INVESTIGACIÓN\nEPIDEMIOLÓGICA\n</string>
+    <string name="formul_opcn03x">\nF300 FICHA DE\nSEGUIMIENTO\n</string>
+
+    <string name="formul_fic100_1">TIPO DOCUMENTO (*)</string>
+    <string name="formul_fic100_2">NRO DOCUMENTO (*)</string>
+
+    <string name="formul_titulox">FORMULARIO INTEGRADO:\nF100 F200 F300</string>
+
+    <string name="formul_nuevosx">Llenar Nuevo Formulario</string>
+
+    <string name="formul_anteri">Anterior</string>
+
+    <string name="formul_siguie">Siguiente</string>
+
+    <string name="formul_finali">Finalizar</string>
+
+    <string name="formul_arrdow">&#x25BC;</string>
+
+    <string name="formul_arrrig">&#x25B6;</string>
+
+    <string name="formul_acepta">Aceptar</string>
+
+    <string name="formul_cancel">Cancelar</string>
+
+    <string name="formul_selecc">SELECCIONAR</string>
+
+    <string name="formul_calcul">CARCULAR</string>
+
+    <string name="formul_titulo">FORMULARIO INTEGRADO: F100 F200 F300</string>
+
+    <string name="formul_opcion">SELECCIONE EL TIPO DE FICHA A LLENAR</string>
+
+    <string name="formul_opcn00">F000 FICHA DATOS\nDEL PACIENTE</string>
+    <string name="formul_opcn01">F100 FICHA ABREVIADA\nDE PRUEBA RÁPIDA</string>
+    <string name="formul_opcn02">F200 FICHA DE INVESTIGACIÓN\nEPIDEMIOLÓGICA</string>
+    <string name="formul_opcn03">F300 FICHA DE SEGUIMIENTO</string>
+
+    <string name="formul_opcn00_subn01">DATOS DEL PACIENTE</string>
+    <string name="formul_opcn01_subn02">DATOS DE LA PRUEBA RÁPIDA</string>
+    <string name="formul_opcn01_subn03">DATOS DEL PERSONAL QUE LLENA FICHA DE PRUEBA RÁPIDA</string>
+    <string name="formul_opcn02_subn04">DATOS DEL INVESTIGADOR QUE LLENA FICHA DE INVESTIGACIÓN EPIDEMIOLÓGICA</string>
+    <string name="formul_opcn02_subn05">DATOS ADICIONALES DEL PACIENTE</string>
+    <!--    <string name="formul_opcn02_subn06">INFORMACIÓN SOBRE PRUEBA RÁPIDA</string>-->
+    <string name="formul_opcn02_subn07">CUADRO CLÍNICO</string>
+    <string name="formul_opcn02_subn08">INFORMACIÓN DE VIAJE Y EXPOSICIÓN</string>
+    <string name="formul_opcn02_subn09">DATOS DE LABORATORIO</string>
+    <string name="formul_opcn02_subn10">CONTACTOS</string>
+    <string name="formul_opcn03_subn11">DATOS GENERALES</string>
+    <string name="formul_opcn03_subn12">DATOS DEL SEGUIMIENTO</string>
+    <string name="formul_opcn03_subn13">FUNCIONES VITALES</string>
+    <string name="formul_opcn03_subn14">SÍNTOMAS</string>
+    <string name="formul_opcn03_subn15">SIGNOS DE ALARMA</string>
+    <string name="formul_opcn03_subn16">EVOLUCIÓN</string>
+
+    <!--  Formulario F000  -->
+
+    <string name="formul_opcn00_titulo">DATOS DEL\nPACIENTE</string>
+
+    <string name="formul_opcn00_pren01">TIPO DOCUMENTO (*)</string>
+    <string name="formul_opcn00_pren01_01">DNI</string>
+    <string name="formul_opcn00_pren01_02">CARNET DE EXTRANJERÍA</string>
+    <string name="formul_opcn00_pren01_03">PASAPORTE</string>
+    <string name="formul_opcn00_pren01_04">CEDULA DE IDENTIDAD</string>
+    <string name="formul_opcn00_pren01_05">CARNET DE SOLICITANTE DE REFUGIO</string>
+    <string name="formul_opcn00_pren01_06">SIN DOCUMENTO</string>
+    <string name="formul_opcn00_pren02">NRO DOCUMENTO (*)</string>
+    <string name="formul_opcn00_pren03">NOMBRE (*)</string>
+    <string name="formul_opcn00_pren04">APELLIDO PATERNO (*)</string>
+    <string name="formul_opcn00_pren05">APELLIDO MATERNO</string>
+    <string name="formul_opcn00_pren06">FECHA NACIMIENTO (*)</string>
+    <string name="formul_opcn00_pren07">SEXO BIOLÓGICO (*)</string>
+    <string-array name="formul_opcn00_pren07">
+        <item>1-MASCULINO</item>
+        <item>2-FEMENINO</item>
+    </string-array>
+    <string name="formul_opcn00_pren08">TELÉFONO/CELULAR (*)</string>
+    <string name="formul_opcn00_pren08_01">9</string>
+    <string name="formul_opcn00_pren09">TELÉFONO CONTACTO (*)</string>
+    <string name="formul_opcn00_pren09_01">9</string>
+    <string name="formul_opcn00_pren10">CORREO ELECTRÓNICO</string>
+    <string name="formul_opcn00_pren11">TIPO RESIDENCIA (*)</string>
+    <string-array name="formul_opcn00_pren11">
+        <item>1-INFORMACION DE DOMICILIO</item>
+        <item>2-LUGAR DONDE SE HOSPEDA</item>
+    </string-array>
+    <string name="formul_opcn00_pren12">DIRECCIÓN (*)</string>
+    <string name="formul_opcn00_pren13">DEPARTAMENTO (*)</string>
+    <string name="formul_opcn00_pren14">PROVINCIA (*)</string>
+    <string name="formul_opcn00_pren15">DISTRITO (*)</string>
+    <string name="formul_opcn00_pren16">GEOLOCALIZACIÓN (*)</string>
+    <string name="formul_opcn00_pren16_01">LATITUD</string>
+    <string name="formul_opcn00_pren16_02">LONGITUD</string>
+    <string name="formul_opcn00_pren17">¿ES PERSONAL DE SALUD?</string>
+    <string name="formul_opcn00_pren17_01">SI</string>
+    <string name="formul_opcn00_pren17_02">NO</string>
+    <string-array name="formul_opcn00_pren17_identi">
+        <item>SI</item>
+        <item>NO</item>
+    </string-array>
+    <string-array name="formul_opcn00_pren17">
+        <item>SI-SI</item>
+        <item>NO-NO</item>
+    </string-array>
+    <string name="formul_opcn00_pren18">¿CUÁL ES SU PROFESIÓN?</string>
+    <string name="formul_opcn00_pren19">¿TIENE SÍNTOMAS?</string>
+    <string name="formul_opcn00_pren19_01">SI</string>
+    <string name="formul_opcn00_pren19_02">NO</string>
+    <string-array name="formul_opcn00_pren19_identi">
+        <item>SI</item>
+        <item>NO</item>
+    </string-array>
+    <string-array name="formul_opcn00_pren19">
+        <item>S-SI</item>
+        <item>N-NO</item>
+    </string-array>
+    <string name="formul_opcn00_pren20">FECHA DE INICIO DE SÍNTOMAS (*)</string>
+    <string name="formul_opcn00_pren21">MARQUE LOS SÍNTOMAS QUE PRESENTA</string>
+    <string name="formul_opcn00_pren21_01">OTRO</string>
+    <string name="formul_opcn00_pren22">OTROS, ESPECIFICAR</string>
+
+    <string name="formul_opcn01_titulo">F100 FICHA ABREVIADA\nDE PRUEBA RÁPIDA</string>
+
+    <string name="formul_opcn01_pren01">FECHA DE EJECUCIÓN DE LA PRUEBA RÁPIDA (*)</string>
+    <string name="formul_opcn01_pren02">HORA EJECUCIÓN DE LA PRUEBA RÁPIDA (*)</string>
+    <string name="formul_opcn01_pren03">PROCEDENCIA DE LA SOLICITUD DE DIAGNÓSTICO (*)</string>
+    <string-array name="formul_opcn01_pren03">
+        <item>2-LLAMÓ AL 113</item>
+        <item>3-PRUEBA EN ESTABLECIMIENTO DE SALUD</item>
+        <item>4-REPORTADO POR PERSONAL DE SALUD</item>
+        <item>5-CONTACTO CON CASO CONFIRMADO</item>
+        <item>6-CONTACTO CON CASO SOSPECHOSO</item>
+        <item>15-PERSONA PROVENIENTE DEL EXTRANJERO</item>
+        <item>16-PERSONA QUE VIVE, TRABAJA O ASISTE A CONGLOMERADO</item>
+        <item>22-OTRO PRIORIZADO</item>
+    </string-array>
+    <string name="formul_opcn01_pren04">RESULTADO DE LA PRUEBA RÁPIDA (*)</string>
+    <string name="formul_opcn01_pren04_01">INDETERMINADO</string>
+    <string name="formul_opcn01_pren04_02">NO REACTIVO</string>
+    <string name="formul_opcn01_pren04_03a">IGM REACTIVO</string>
+    <string name="formul_opcn01_pren04_03b">IGG REACTIVO</string>
+    <string name="formul_opcn01_pren04_03c">IGM E IGG REACTIVO</string>
+    <string name="formul_opcn01_pren05">RESULTADO DE LA SEGUNDA PRUEBA RÁPIDA (*)</string>
+    <string name="formul_opcn01_pren05_01">INDETERMINADO</string>
+    <string name="formul_opcn01_pren05_02">NO REACTIVO</string>
+    <string name="formul_opcn01_pren05_03a">IGM REACTIVO</string>
+    <string name="formul_opcn01_pren05_03b">IGG REACTIVO</string>
+    <string name="formul_opcn01_pren05_03c">IGM E IGG REACTIVO</string>
+    <string name="formul_opcn01_pren06">CLASIFICACIÓN CLÍNICA DE SEVERIDAD (*)</string>
+    <string name="formul_opcn01_pren06_01">LEVE O ASINTOMÁTICO</string>
+    <string name="formul_opcn01_pren06_02">MODERADO</string>
+    <string name="formul_opcn01_pren06_03">SEVERO</string>
+    <string-array name="formul_opcn01_pren06">
+        <item>1-LEVE O ASINTOMÁTICO</item>
+        <item>2-MODERADO</item>
+        <item>3-SEVERO</item>
+    </string-array>
+    <string name="formul_opcn01_pren07">¿EL PACIENTE CUMPLE CON ALGUNA CONDICIÓN DE RIESGO? (*)</string>
+    <string name="formul_opcn01_pren07_01">OTRA CONDICIÓN DE RIESGO</string>
+    <string name="formul_opcn01_pren07_02">NINGUNA CONDICIÓN DE RIESGO</string>
+    <string name="formul_opcn01_pren07_M">NINGUN MENSAJE</string>
+    <string name="formul_opcn01_pren07_M01">Requiere aislamiento domiciliario. Repetir la prueba rápida en 7 días. Se realizará seguimiento remoto. No es necesario continuar con F200.</string>
+    <string name="formul_opcn01_pren07_M02">Requiere aislamiento domiciliario. Aplicar prueba PCR y continuar con F200. Se realizará seguimiento clínico remoto (cada 24 hs) y seguimiento clínico presencial (cada 7 días)</string>
+    <string name="formul_opcn01_pren07_M03">Gestionar traslado a hospital. Aplicar prueba PCR y continuar con F200.</string>
+    <string name="formul_opcn01_pren07_M04">Gestionar traslado a hospital. Aplicar prueba PCR y continuar con F200.</string>
+    <string name="formul_opcn01_pren07_M05">Aislamiento domiciliario. Se realizará seguimiento clínico remoto cada 24 horas y presencial cada 7 días. Continuar con F200  y F300. No es necesario realizar prueba PCR, pero sí se debe tomar prueba rápida a todos los miembros de la casa y aplicar F100 para cada uno.</string>
+    <string name="formul_opcn01_pren07_M06">Aislamiento domiciliario. Se realizará seguimiento clínico remoto cada 24 horas y presencial cada 72 horas. Continuar con F200  y F300. No es necesario realizar prueba PCR, pero sí se debe aplicar prueba rápida a todos los miembros del hogar a y realizar F100 para cada uno.</string>
+    <string name="formul_opcn01_pren07_M07">Gestionar traslado a hospital. Continuar con F200  y F300. No es necesario aplicar prueba PCR, pero sí se debe tomar prueba rápida a todos los miembros del hogar y aplicar F100 para cada uno.</string>
+    <string name="formul_opcn01_pren07_M08">Gestionar traslado a hospital. Continuar con F200  y F300. No es necesario aplicar prueba PCR, pero sí se debe tomar prueba rápida a todos los miembros del hogar y aplicar F100 para cada uno.</string>
+    <string name="formul_opcn01_pren07_M09">1. Se consignará como prueba no válida: EVALUAR EL CASO Y DE NO TENER FACTORES DE RIESGO REPETIR VISITA EN 7 DÍAS.\n2. Paciente en estado grave o moderado. ACCIÓN: APLICAR PCR Y CONTUNUAR CON F200.</string>
+    <string name="formul_opcn01_pren07_M10">NINGUNA OBSERVACIÓN</string>
+    <string name="formul_opcn01_pren08">OTROS, ESPECIFICAR (*)</string>
+    <string name="formul_opcn01_pren09">¿SE APLICARÁ PCR AHORA?</string>
+    <string-array name="formul_opcn01_pren09">
+        <item>1-SI</item>
+        <item>2-NO</item>
+    </string-array>
+    <string name="formul_opcn01_pren10">¿DESEA AÑADIR ALGUNA OBSERVACIÓN?</string>
+
+
+    <string name="formul_opcn01_resn01a">DNI</string>
+    <string name="formul_opcn01_resn01b">CARNET DE EXTRANJERÍA</string>
+    <string name="formul_opcn01_resn01c">PASAPORTE</string>
+    <string name="formul_opcn01_resn01d">CEDULA DE IDENTIDAD</string>
+    <string name="formul_opcn01_resn01e">CARNET DE SOLICITANTE DE REFUGIO</string>
+    <!--    <string name="formul_opcn01_resn01e">SIN DOCUMENTO</string>-->
+    <string name="formul_opcn01_pren01_O">Este campo es obligatorio</string>
+
+    <string-array name="formul_opcn01_pren01">
+        <item>DNI</item>
+        <item>CARNET DE EXTRANJERIA</item>
+        <item>PASAPORTE</item>
+        <item>CEDULA DE IDENTIDAD</item>
+        <item>CARNET DE SOLICITANTE DE REFUGIO</item>
+    </string-array>
+
+    <!--    <string name="formul_opcn00_pren02">INGRESO NÚMERO DOCUMENTO (*)</string>-->
+    <string name="formul_opcn00_pren02_O">Este campo es obligatorio</string>
+
+    <!--    <string name="formul_opcn00_pren03">NOMBRE(S)</string>-->
+
+    <!--    <string name="formul_opcn00_pren04">APELLIDO PATERNO</string>-->
+
+    <!--    <string name="formul_opcn00_pren05">APELLIDO MATERNO</string>-->
+
+    <string name="formul_opcn01_pren07X">CELULAR (*)</string>
+    <string name="formul_opcn01_resn07">9</string>
+    <string name="formul_opcn01_pren07_O">Este campo es obligatorio</string>
+    <string name="formul_opcn01_pren07a">OTRO TELÉFONO ADICIONAL</string>
+    <string name="formul_opcn01_pren07a_H">(Teléfono fijo o de contacto)</string>
+    <string name="formul_opcn01_pren07b">EDAD</string>
+
+    <string name="formul_opcn01_pren08X">DOMICILIO O RESIDENCIA</string>
+    <string name="formul_opcn01_resn08a">INFORMACION DE DOMICILIO</string>
+    <string name="formul_opcn01_resn08b">LUGAR DONDE SE HOSPEDA ACTUALMENTE</string>
+
+    <string-array name="formul_opcn01_pren08">
+        <item>INFORMACION DE DOMICILIO</item>
+        <item>LUGAR DONDE SE HOSPEDA</item>
+    </string-array>
+
+    <string name="formul_opcn01_pren09X">DIRECCIÓN</string>
+
+    <string name="formul_opcn01_pren10x">DEPARTAMENTO (*)</string>
+    <string name="formul_opcn01_pren10_O">Este campo es obligatorio</string>
+
+    <string name="formul_opcn01_pren11">PROVINCIA (*)</string>
+    <string name="formul_opcn01_pren11_O">Este campo es obligatorio</string>
+
+    <string name="formul_opcn01_pren12">DISTRITO (*)</string>
+    <string name="formul_opcn01_pren12_O">Este campo es obligatorio</string>
+
+    <string name="formul_opcn01_pren13">GEOLOCALIZACIÓN DEL DOMICILIO O RESIDENCIA</string>
+    <string name="formul_opcn01_resn13a">LATITUD (x.y °)</string>
+    <string name="formul_opcn01_resn13b">LONGITUD (x.y °)</string>
+    <string name="formul_opcn01_resn13c">ALTITUD (m)</string>
+    <string name="formul_opcn01_resn13d">PRECISIÓN (m)</string>
+
+    <string name="formul_opcn01_pren14">¿ES PERSONAL DE SALUD?</string>
+    <string name="formul_opcn01_resn14a">SI</string>
+    <string name="formul_opcn01_resn14b">NO</string>
+
+    <string-array name="formul_opcn01_pren14">
+        <item>SI</item>
+        <item>NO</item>
+    </string-array>
+
+    <string name="formul_opcn01_pren15">¿CUAL ES SU PROFESIÓN?</string>
+    <string name="formul_opcn01_resn15a">MÉDICO</string>
+    <string name="formul_opcn01_resn15b">ENFERMERO(A)</string>
+    <string name="formul_opcn01_resn15c">OBSTETRA</string>
+    <string name="formul_opcn01_resn15d">BIÓLOGO</string>
+    <string name="formul_opcn01_resn15e">TECNÓLOGO MÉDICO</string>
+    <string name="formul_opcn01_resn15f">TÉCNICO DE ENFERMERÍA</string>
+    <string name="formul_opcn01_resn15g">TÉCNICO DE LABORATORIO</string>
+    <string name="formul_opcn01_resn15h">OTROS</string>
+
+    <string-array name="formul_opcn01_pren15">
+        <item>MÉDICO</item>
+        <item>ENFERMERO(A)</item>
+        <item>OBSTETRA</item>
+        <item>BIÓLOGO</item>
+        <item>TECNÓLOGO MÉDICO</item>
+        <item>TÉCNICO DE ENFERMERÍA</item>
+        <item>TÉCNICO DE LABORATORIO</item>
+        <item>OTROS</item>
+    </string-array>
+
+    <string name="formul_opcn01_pren16">¿TIENE SÍNTOMAS?</string>
+    <string name="formul_opcn01_resn16a">SI</string>
+    <string name="formul_opcn01_resn16b">NO</string>
+
+    <string-array name="formul_opcn01_pren16">
+        <item>SI</item>
+        <item>NO</item>
+    </string-array>
+
+    <string name="formul_opcn01_pren17">FECHA DE INICIO DE SÍNTOMAS (*)</string>
+    <string name="formul_opcn01_pren17_H">yyyy-mm-dd</string>
+    <string name="formul_opcn01_pren17_O">Este campo es obligatorio</string>
+
+    <string name="formul_opcn01_pren18">MARQUE LOS SÍNTOMAS QUE PRESENTA</string>
+    <string name="formul_opcn01_resn18a">TOS</string>
+    <string name="formul_opcn01_resn18b">DOLOR DE GARGANTA</string>
+    <string name="formul_opcn01_resn18c">CONGESTIÓN NASAL</string>
+    <string name="formul_opcn01_resn18d">DIFICULTAD RESPIRATORIA</string>
+    <string name="formul_opcn01_resn18e">FIEBRE/ESCALOFRIO</string>
+    <string name="formul_opcn01_resn18f">MALESTAR GENERAL</string>
+    <string name="formul_opcn01_resn18g">DIARREA</string>
+    <string name="formul_opcn01_resn18h">NAUSEAS/VOMITOS</string>
+    <string name="formul_opcn01_resn18i">CEFALEA</string>
+    <string name="formul_opcn01_resn18j">IRRITABILIDAD/CONFUSIÓN</string>
+    <string name="formul_opcn01_resn18k">DOLOR</string>
+    <string name="formul_opcn01_resn18l">OTROS</string>
+    <string name="formul_opcn01_pren18k">TIPO DE DOLOR QUE PRESENTA</string>
+    <string name="formul_opcn01_resn18ka">MUSCULAR</string>
+    <string name="formul_opcn01_resn18kb">ABDOMINAL</string>
+    <string name="formul_opcn01_resn18kc">PECHO</string>
+    <string name="formul_opcn01_resn18kd">ARTICULACIONES</string>
+    <string name="formul_opcn01_pren18l">OTROS, ESPECIFICAR</string>
+
+    <string-array name="formul_opcn01_pren18">
+        <item>TOS</item>
+        <item>DOLOR DE GARGANTA</item>
+        <item>CONGESTIÓN NASAL</item>
+        <item>DIFICULTAD RESPIRATORIA</item>
+        <item>FIEBRE/ESCALOFRIO</item>
+        <item>MALESTAR GENERAL</item>
+        <item>DIARREA</item>
+        <item>NAUSEAS/VOMITOS</item>
+        <item>CEFALEA</item>
+        <item>IRRITABILIDAD/CONFUSIÓN</item>
+        <item>DOLOR</item>
+        <item>OTROS</item>
+    </string-array>
+
+    <string-array name="formul_opcn01_pren18k">
+        <item>MUSCULAR</item>
+        <item>ABDOMINAL</item>
+        <item>PECHO</item>
+        <item>ARTICULACIONES</item>
+    </string-array>
+
+    <!--  Formulario F100  -->
+
+    <string name="formul_opcn02_titulo">F100 FICHA ABREVIADA\nDE PRUEBA RÁPIDA</string>
+
+    <string name="formul_opcn02_subn01">DATOS DE LA PRUEBA RÁPIDA</string>
+
+    <string name="formul_opcn02_subn01_pren19">FECHA EJECUCIÓN DE PRUEBA RÁPIDA (DD/MM/YYYY) (*)</string>
+    <string name="formul_opcn02_subn01_pren19_H">yyyy-mm-dd</string>
+    <string name="formul_opcn02_subn01_pren19_O">Este campo es obligatorio</string>
+
+    <string name="formul_opcn02_subn01_pren20">PROCEDENCIA DE LA SOLICITUD DE DIAGNOSTICO (*)</string>
+    <string name="formul_opcn02_subn01_resn20a">Llamada al 113</string>
+    <string name="formul_opcn02_subn01_resn20b">Prueba en EESS</string>
+    <string name="formul_opcn02_subn01_resn20c">Personal de salud</string>
+    <string name="formul_opcn02_subn01_resn20d">Contacto con caso confirmado</string>
+    <string name="formul_opcn02_subn01_resn20e">Contacto con caso sospechoso</string>
+    <string name="formul_opcn02_subn01_resn20f">Persona proveniente del extranjero (migraciones)</string>
+    <string name="formul_opcn02_subn01_resn20g">Otro priorizado</string>
+    <string name="formul_opcn02_subn01_pren20_O">Este campo es obligatorio</string>
+
+    <string-array name="formul_opcn02_subn01_pren20">
+        <item>LLAMADA AL 113</item>
+        <item>PRUEBA EN EESS</item>
+        <item>PERSONAL DE SALUD</item>
+        <item>CONTACTO CON CASO CONFIRMADO</item>
+        <item>CONTACTO CON CASO SOSPECHOSO</item>
+        <item>PERSONA PROVENIENTE DEL EXTRANJERO (MIGRACIONES)</item>
+        <item>OTRO PRIORIZADO</item>
+    </string-array>
+
+    <string name="formul_opcn02_subn01_pren21">RESULTADO DE LA PRUEBA RÁPIDA (*)</string>
+    <string name="formul_opcn02_subn01_resn21a">NEGATIVO</string>
+    <string name="formul_opcn02_subn01_resn21b">INDETERMINADO/NO VALIDO</string>
+    <string name="formul_opcn02_subn01_resn21c">IgM POSITIVO</string>
+    <string name="formul_opcn02_subn01_resn21d">IgG POSITIVO</string>
+    <string name="formul_opcn02_subn01_resn21e">IgM e IgG POSITIVO</string>
+    <string name="formul_opcn02_subn01_pren21_O">Este campo es obligatorio</string>
+    <string name="formul_opcn02_subn01_pren21a">SUBIR FOTOGRAFÍA DE LA PRUEBA RÁPIDA</string>
+    <string name="formul_opcn02_subn01_pren21a_H">Haga clic aquí para subir el archivo. (&lt;10MB)</string>
+    <string name="formul_opcn02_subn01_pren21b">PACIENTE REQUIERE DE AISLAMIENTO Se debe proceder a 1. Realizar Ficha de Investigación Epidemiológica al paciente, 2. Realizar Ficha de Seguimiento (incluye contactos). Además, se debe aplicar pruebas rápidas a todos los contactos que se encuentren en el mismo domicilio.</string>
+    <string name="formul_opcn02_subn01_pren21c">Paciente en estado grave o moderado. ACCIÓN: APLICAR PCR Y USAR FICHA EPIDEMIOLÓGICA</string>
+
+    <string-array name="formul_opcn02_subn01_pren21">
+        <item>NEGATIVO</item>
+        <item>INDETERMINADO/NO VALIDO</item>
+        <item>IgM POSITIVO</item>
+        <item>IgG POSITIVO</item>
+        <item>IgM e IgG POSITIVO</item>
+    </string-array>
+
+    <string name="formul_opcn02_subn01_pren22">RESULTADO DE LA PRUEBA RÁPIDA (*)</string>
+    <string name="formul_opcn02_subn01_resn22a">NEGATIVO</string>
+    <string name="formul_opcn02_subn01_resn22b">INDETERMINADO/NO VALIDO</string>
+    <string name="formul_opcn02_subn01_resn22c">IgM POSITIVO</string>
+    <string name="formul_opcn02_subn01_resn22d">IgG POSITIVO</string>
+    <string name="formul_opcn02_subn01_resn22e">IgM e IgG POSITIVO</string>
+    <string name="formul_opcn02_subn01_pren22_O">Este campo es obligatorio</string>
+    <string name="formul_opcn02_subn01_pren22a">SUBIR FOTOGRAFÍA DE LA PRUEBA RÁPIDA</string>
+    <string name="formul_opcn02_subn01_pren22a_H">Haga clic aquí para subir el archivo. (&lt;10MB)</string>
+    <string name="formul_opcn02_subn01_pren22b">Se consignará como prueba no válida: EVALUAR EL CASO Y DE NO TENER FACTORES DE RIESGO REPETIR VISITA EN 7 DÍAS</string>
+    <string name="formul_opcn02_subn01_pren22c">PACIENTE REQUIERE DE AISLAMIENTO Se debe proceder a 1. Realizar Ficha de Investigación Epidemiológica al paciente, 2. Realizar Ficha de Seguimiento (incluye contactos). Además, se debe aplicar pruebas rápidas a todos los contactos que se encuentren en el mismo domicilio.</string>
+    <string name="formul_opcn02_subn01_pren22d">Paciente en estado grave o moderado. ACCIÓN: APLICAR PCR Y USAR FICHA EPIDEMIOLÓGICA</string>
+
+    <string-array name="formul_opcn02_subn01_pren22">
+        <item>NEGATIVO</item>
+        <item>INDETERMINADO/NO VALIDO</item>
+        <item>IgM POSITIVO</item>
+        <item>IgG POSITIVO</item>
+        <item>IgM e IgG POSITIVO</item>
+    </string-array>
+
+    <string name="formul_opcn02_subn01_pren23">CLASIFICACIÓN CLÍNICA DE SEVERIDAD (*)</string>
+    <string name="formul_opcn02_subn01_resn23a">LEVE O ASINTOMÁTICO (Tratamiento domiciliario. Tos, malestar general, dolor de garganta, fiebre, congestión nasal)\n</string>
+    <string name="formul_opcn02_subn01_resn23b">MODERADA (Paciente hospitalizado. Disnea o dificultad respiratoria, FR > 22 respiraciones/minuto, Alteración de conciencia (desorientación confusión), Hipotensión arterial o shock, Signos clínicos o radiológicos de neumonía, Recuento de linfocitos &lt; 1000 celulas/uL)\n</string>
+    <string name="formul_opcn02_subn01_resn23c">SEVERA (Paciente hospitalizado en unidades críticas: FR > 22 respiraciones/minuto o PaCO2 &lt; 32mmHg, Alteración de conciencia, PAsistolica&lt;100mmHg o PAM&lt;65mmHg, PaO2&lt;60mmHg o PaFi&lt;300, Signos clínicos de fatiga muscular: aleteo nasal, uso de musculos accesorios, desbalance tóraco-abdominal, Lactato sérico &lt;2mosm/L )F\n</string>
+    <string name="formul_opcn02_subn01_pren23_O">Este campo es obligatorio</string>
+    <string name="formul_opcn02_subn01_pren23a">Paciente en estado grave o moderado. ACCIÓN: APLICAR PCR Y USAR FICHA EPIDEMIOLÓGICA</string>
+
+    <string-array name="formul_opcn02_subn01_pren23">
+        <item>LEVE O ASINTOMÁTICO (Tratamiento domiciliario. Tos, malestar general, dolor de garganta, fiebre, congestión nasal)</item>
+        <item>MODERADA (Paciente hospitalizado. Disnea o dificultad respiratoria, FR > 22 respiraciones/minuto, Alteración de conciencia (desorientación confusión), Hipotensión arterial o shock, Signos clínicos o radiológicos de neumonía, Recuento de linfocitos &lt; 1000 celulas/uL)</item>
+        <item>SEVERA (Paciente hospitalizado en unidades críticas: FR > 22 respiraciones/minuto o PaCO2 &lt; 32mmHg, Alteración de conciencia, PAsistolica&lt;100mmHg o PAM&lt;65mmHg, PaO2&lt;60mmHg o PaFi&lt;300, Signos clínicos de fatiga muscular: aleteo nasal, uso de musculos accesorios, desbalance tóraco-abdominal, Lactato sérico &lt;2mosm/L )F</item>
+    </string-array>
+
+    <string name="formul_opcn02_subn01_pren24">¿EL PACIENTE CUMPLE CON ALGUNA CONDICIÓN DE RIESGO?</string>
+    <string name="formul_opcn02_subn01_resn24a">Mayor de 60 años</string>
+    <string name="formul_opcn02_subn01_resn24b">Hipertensión arterial</string>
+    <string name="formul_opcn02_subn01_resn24c">Enfermedad cardiovascular</string>
+    <string name="formul_opcn02_subn01_resn24d">Diabetes</string>
+    <string name="formul_opcn02_subn01_resn24e">Obesidad</string>
+    <string name="formul_opcn02_subn01_resn24f">Asma</string>
+    <string name="formul_opcn02_subn01_resn24g">Enfermedad pulmonar crónica</string>
+    <string name="formul_opcn02_subn01_resn24h">Insuficiencia renal crónica</string>
+    <string name="formul_opcn02_subn01_resn24i">Enfermedad o tratamiento inmunosupresor</string>
+    <string name="formul_opcn02_subn01_resn24j">Cáncer</string>
+    <string name="formul_opcn02_subn01_resn24k">Embarazo o puerperio</string>
+    <string name="formul_opcn02_subn01_resn24l">Personal de salud</string>
+    <string name="formul_opcn02_subn01_resn24m">NINGUNA CONDICIÓN DE RIESGO</string>
+    <string name="formul_opcn02_subn01_pren24_O">Este campo es obligatorio</string>
+    <string name="formul_opcn02_subn01_pren24a">Paciente en estado grave o moderado. ACCIÓN: APLICAR PCR Y USAR FICHA EPIDEMIOLÓGICA</string>
+    <string name="formul_opcn02_subn01_pren24b">Paciente con condición de riesgo. ACCIÓN: APLICAR PCR Y USAR FICHA EPIDEMIOLÓGICA</string>
+    <string name="formul_opcn02_subn01_pren24c">Se recomienda aislamiento domiciliario y repetir la prueba en 7 días. No es necesario realizar Ficha de Investigación Epidemiológica</string>
+    <string name="formul_opcn02_subn01_pren24aaa">REQUIERE AISLAMIENTO DOMICILIARIO. REPETIR LA PRUEBA RÁPIDA EN 7 DÍAS. SE REALIZARÁ SEGUIMIENTO REMOTO. NO ES NECESARIO CONTINUAR CON F200.</string>
+    <string name="formul_opcn02_subn01_pren24aab">REQUIERE AISLAMIENTO DOMICILIARIO. APLICAR PRUEBA PCR Y CONTINUAR CON F200. SE REALIZARÁ SEGUIMIENTO CLÍNICO REMOTO (CADA 24 HS) Y SEGUIMIENTO CLÍNICO PRESENCIAL (CADA 7 DÍAS).</string>
+    <string name="formul_opcn02_subn01_pren24aba">GESTIONAR TRASLADO A HOSPITAL. APLICAR PRUEBA PCR Y CONTINUAR CON F200.</string>
+    <string name="formul_opcn02_subn01_pren24abb">GESTIONAR TRASLADO A HOSPITAL. APLICAR PRUEBA PCR Y CONTINUAR CON F200.</string>
+    <string name="formul_opcn02_subn01_pren24aca">GESTIONAR TRASLADO A HOSPITAL. APLICAR PRUEBA PCR Y CONTINUAR CON F200.</string>
+    <string name="formul_opcn02_subn01_pren24acb">GESTIONAR TRASLADO A HOSPITAL. APLICAR PRUEBA PCR Y CONTINUAR CON F200.</string>
+    <string name="formul_opcn02_subn01_pren24baa">AISLAMIENTO DOMICILIARIO. SE REALIZARÁ SEGUIMIENTO CLÍNICO REMOTO CADA 24 HORAS Y PRESENCIAL CADA 7 DÍAS. CONTINUAR CON F200  Y F300. NO ES NECESARIO REALIZAR PRUEBA PCR, PERO SÍ SE DEBE TOMAR PRUEBA RÁPIDA A TODOS LOS MIEMBROS DE LA CASA Y APLICAR F100 PARA CADA UNO.</string>
+    <string name="formul_opcn02_subn01_pren24bab">AISLAMIENTO DOMICILIARIO. SE REALIZARÁ SEGUIMIENTO CLÍNICO REMOTO CADA 24 HORAS Y PRESENCIAL CADA 72 HORAS. CONTINUAR CON F200  Y F300. NO ES NECESARIO REALIZAR PRUEBA PCR, PERO SÍ SE DEBE APLICAR PRUEBA RÁPIDA A TODOS LOS MIEMBROS DEL HOGAR A Y REALIZAR F100 PARA CADA UNO.</string>
+    <string name="formul_opcn02_subn01_pren24bba">GESTIONAR TRASLADO A HOSPITAL. CONTINUAR CON F200  Y F300. NO ES NECESARIO APLICAR PRUEBA PCR, PERO SÍ SE DEBE TOMAR PRUEBA RÁPIDA A TODOS LOS MIEMBROS DEL HOGAR Y APLICAR F100 PARA CADA UNO.</string>
+    <string name="formul_opcn02_subn01_pren24bca">GESTIONAR TRASLADO A HOSPITAL. CONTINUAR CON F200  Y F300. NO ES NECESARIO APLICAR PRUEBA PCR, PERO SÍ SE DEBE TOMAR PRUEBA RÁPIDA A TODOS LOS MIEMBROS DEL HOGAR Y APLICAR F100 PARA CADA UNO.</string>
+
+    <string-array name="formul_opcn02_subn01_pren24">
+        <item>MAYOR DE 60 AÑOS</item>
+        <item>HIPERTENSIÓN ARTERIAL</item>
+        <item>ENFERMEDAD CARDIOVASCULAR</item>
+        <item>DIABETES</item>
+        <item>OBESIDAD</item>
+        <item>ASMA</item>
+        <item>ENFERMEDAD PULMONAR CRÓNICA</item>
+        <item>INSUFICIENCIA RENAL CRÓNICA</item>
+        <item>ENFERMEDAD O TRATAMIENTO INMUNOSUPRESOR</item>
+        <item>CÁNCER</item>
+        <item>EMBARAZO O PUERPERIO</item>
+        <item>PERSONAL DE SALU</item>
+        <item>NINGUNA CONDICIÓN DE RIESGO</item>
+    </string-array>
+
+    <string name="formul_opcn02_subn02">DATOS DEL PERSONAL QUE LLENA FICHA DE PRUEBA RÁPIDA</string>
+
+    <string name="formul_opcn02_subn02_pren25">NOMBRES Y APELLIDOS (PERSONAL QUE LLENA LA FICHA)</string>
+
+    <string name="formul_opcn02_subn02_pren26">NÚMERO DE DNI (PERSONAL QUE LLENA LA FICHA) (*)</string>
+    <string name="formul_opcn02_subn02_pren26_O">Este campo es obligatorio</string>
+    <string name="formul_opcn02_subn02_pren26a">GERESA/DIRESA/DIRIS</string>
+    <string name="formul_opcn02_subn02_pren26a_H">Pregunta obligatoria en personal del estado)</string>
+    <string name="formul_opcn02_subn02_pren26b">HOSPITAL/INSTITUTO/OTROS AL QUE PERTENECES</string>
+
+    <string name="formul_opcn02_subn02_pren27">¿SE APLICARÁ PCR?</string>
+    <string name="formul_opcn02_subn02_resn27a">SI</string>
+    <string name="formul_opcn02_subn02_resn27b">NO</string>
+    <string name="formul_opcn02_subn02_pren27a">Reportar a DGOS para programar visita PCR</string>
+    <string name="formul_opcn02_subn02_pren27b">¿DESEA AÑADIR ALGUNA OBSERVACIÓN?</string>
+
+    <string-array name="formul_opcn02_subn02_pren27">
+        <item>SI</item>
+        <item>NO</item>
+    </string-array>
+
+    <!--  Formulario F200  -->
+
+    <string name="formul_opcn03_titulo">F200 FICHA DE INVESTIGACIÓN\nEPIDEMIOLÓGICA</string>
+
+    <string name="formul_opcn03_subn00">FECHA DE NOTIFICACIÓN</string>
+
+    <string name="formul_opcn03_subn00_pren28">FECHA DE NOTIFICACIÓN</string>
+    <string name="formul_opcn03_subn00_pren28_H">yyyy-mm-dd</string>
+
+    <string name="formul_opcn03_subn01">DATOS DEL INVESTIGADOR QUE LLENA FICHA DE INVESTIGACIÓN EPIDEMIOLÓGICA</string>
+
+    <string name="formul_opcn03_subn01_pren29">NÚMERO DE DNI (PERSONAL QUE LLENA LA FICHA) (*)</string>
+    <string name="formul_opcn03_subn01_pren29_O">Este campo es obligatorio</string>
+
+    <string name="formul_opcn03_subn01_pren30">NOMBRES Y APELLIDOS (PERSONAL QUE LLENA LA FICHA)</string>
+
+    <string name="formul_opcn03_subn02">DATOS ADICIONALES DEL PACIENTE</string>
+
+    <string name="formul_opcn03_subn02_pren31">FECHA DE NACIMIENTO DEL PACIENTE</string>
+    <string name="formul_opcn03_subn02_pren31_H">yyyy-mm-dd</string>
+
+    <string name="formul_opcn03_subn02_pren32">EDAD</string>
+
+    <string name="formul_opcn03_subn02_pren33">SEXO BIOLÓGICO</string>
+    <string name="formul_opcn03_subn02_resn33a">MASCULINO</string>
+    <string name="formul_opcn03_subn02_resn33b">FEMENINO</string>
+
+    <string-array name="formul_opcn03_subn02_pren33">
+        <item>MASCULINO</item>
+        <item>FEMENINO</item>
+    </string-array>
+
+    <string name="formul_opcn03_subn02_pren34">TIPO DE SEGURO</string>
+    <string name="formul_opcn03_subn02_resn34a">ESSALUD</string>
+    <string name="formul_opcn03_subn02_resn34b">SIS</string>
+    <string name="formul_opcn03_subn02_resn34c">POLICIA</string>
+    <string name="formul_opcn03_subn02_resn34d">F.F.A.A.</string>
+    <string name="formul_opcn03_subn02_resn34e">PRIVADO</string>
+    <string name="formul_opcn03_subn02_resn34f">OTROS</string>
+
+    <string-array name="formul_opcn03_subn02_pren34">
+        <item>ESSALUD</item>
+        <item>SIS</item>
+        <item>POLICIA</item>
+        <item>F.F.A.A.</item>
+        <item>PRIVADO</item>
+        <item>OTROS</item>
+    </string-array>
+
+
+    <string name="formul_opcn03_subn02_pren35">INGRESE TIPO DE SEGURO</string>
+
+    <string name="formul_opcn03_subn02_pren36">CORREO</string>
+
+    <string name="formul_opcn03_subn02_pren37">¿QUE PROFESIÓN/OCUPACIÓN TIENE?</string>
+
+    <string name="formul_opcn03_subn03">INFORMACIÓN SOBRE PRUEBA RÁPIDA</string>
+
+    <string name="formul_opcn03_subn03_pren0a">¿LE TOMARON PRUEBA RÁPIDA?</string>
+    <string name="formul_opcn03_subn03_resn0aa">Si</string>
+    <string name="formul_opcn03_subn03_resn0ab">No</string>
+
+    <string name="formul_opcn03_subn03_pren0b">RESULTADO DE PRUEBA RÁPIDA</string>
+    <string name="formul_opcn03_subn03_resn0ba">IgM e IgG POSITIVO</string>
+    <string name="formul_opcn03_subn03_resn0bb">IgG POSITIVO</string>
+    <string name="formul_opcn03_subn03_resn0bc">IgM POSITIVO</string>
+    <string name="formul_opcn03_subn03_resn0bd">NEGATIVO</string>
+    <string name="formul_opcn03_subn03_resn0be">INDETERMINADO/NO VALIDO</string>
+
+    <string name="formul_opcn03_subn00_pren0c">FECHA DE PRUEBA RÁPIDA</string>
+    <string name="formul_opcn03_subn00_pren0c_H">yyyy-mm-dd</string>
+
+    <string name="formul_opcn03_subn00_pren0d">RESULTADO DE SEGUNDA PRUEBA RÁPIDA</string>
+    <string name="formul_opcn03_subn03_resn0da">IgM e IgG POSITIVO</string>
+    <string name="formul_opcn03_subn03_resn0db">IgG POSITIVO</string>
+    <string name="formul_opcn03_subn03_resn0dc">IgM POSITIVO</string>
+    <string name="formul_opcn03_subn03_resn0dd">NEGATIVO</string>
+
+    <string name="formul_opcn03_subn04">CUADRO CLÍNICO</string>
+
+    <string name="formul_opcn03_subn04_pren38">HOSPITALIZADO</string>
+    <string name="formul_opcn03_subn04_resn38a">SI</string>
+    <string name="formul_opcn03_subn04_resn38b">NO</string>
+    <string name="formul_opcn03_subn04_resn38c">DESCONOCIDO</string>
+
+    <string-array name="formul_opcn03_subn04_pren38">
+        <item>SI</item>
+        <item>NO</item>
+        <item>DESCONOCIDO</item>
+    </string-array>
+
+    <string name="formul_opcn03_subn04_pren39">FECHA DE HOSPITALIZACIÓN</string>
+    <string name="formul_opcn03_subn04_resn39_H">yyyy-mm-dd</string>
+
+    <string name="formul_opcn03_subn04_pren40">¿TIENE ALGÚN SIGNO?</string>
+    <string name="formul_opcn03_subn04_resn40a">SI</string>
+    <string name="formul_opcn03_subn04_resn40b">NO</string>
+
+    <string-array name="formul_opcn03_subn04_pren40">
+        <item>SI</item>
+        <item>NO</item>
+    </string-array>
+
+    <string name="formul_opcn03_subn04_pren41">TEMPERATURA DEL PACIENTE</string>
+
+    <string name="formul_opcn03_subn04_pren42">MARQUE LOS SIGNOS QUE PRESENTA</string>
+    <string name="formul_opcn03_subn04_resn42a">EXUDADO FARINGEO</string>
+    <string name="formul_opcn03_subn04_resn42b">INYECCIÓN CONJUNTIVAL</string>
+    <string name="formul_opcn03_subn04_resn42c">CONVULSIÓN</string>
+    <string name="formul_opcn03_subn04_resn42d">COMA</string>
+    <string name="formul_opcn03_subn04_resn42e">DISNEA/TAQUIPNEA</string>
+    <string name="formul_opcn03_subn04_resn42f">OTROS</string>
+    <string name="formul_opcn03_subn04_pren42a">OTROS, ESPECIFICAR</string>
+
+    <string-array name="formul_opcn03_subn04_pren42">
+        <item>EXUDADO FARINGEO</item>
+        <item>INYECCIÓN CONJUNTIVAL</item>
+        <item>CONVULSIÓN</item>
+        <item>COMA</item>
+        <item>DISNEA/TAQUIPNEA</item>
+        <item>OTROS</item>
+    </string-array>
+
+    <string name="formul_opcn03_subn04_pren43">CONDICIONES DE COMORBILIDAD</string>
+    <string name="formul_opcn03_subn04_resn43a">MAYOR DE 60 AÑOS</string>
+    <string name="formul_opcn03_subn04_resn43b">HIPERTENSIÓN ARTERIAL</string>
+    <string name="formul_opcn03_subn04_resn43c">ENFERMEDAD CARDIOVASCULAR</string>
+    <string name="formul_opcn03_subn04_resn43d">DIABETES</string>
+    <string name="formul_opcn03_subn04_resn43e">OBESIDAD</string>
+    <string name="formul_opcn03_subn04_resn43f">ASMA</string>
+    <string name="formul_opcn03_subn04_resn43g">ENFERMEDAD PULMONAR CRÓNICA</string>
+    <string name="formul_opcn03_subn04_resn43h">INSUFICIENCIA RENAL CRÓNICA</string>
+    <string name="formul_opcn03_subn04_resn43i">ENFERMEDAD O TRATAMIENTO INMUNOSUPRESOR</string>
+    <string name="formul_opcn03_subn04_resn43j">CÁNCER</string>
+    <string name="formul_opcn03_subn04_resn43k">EMBARAZO O PUERPERIO</string>
+    <string name="formul_opcn03_subn04_resn43l">ENFERMEDAD HEPÁTICA</string>
+    <string name="formul_opcn03_subn04_resn43m">ENFERMEDAD CRÓNICA NEUROLÓGICA O NEUROMUSCULAR</string>
+    <string name="formul_opcn03_subn04_resn43n">OTROS</string>
+    <string name="formul_opcn03_subn04_pren43a">EMBARAZO TRIMESTRE</string>
+    <string name="formul_opcn03_subn04_resn43aa">PRIMER TRIMESTRE</string>
+    <string name="formul_opcn03_subn04_resn43ab">SEGUNDO TRIMESTRE</string>
+    <string name="formul_opcn03_subn04_resn43ac">TERCER TRIMESTRE</string>
+    <string name="formul_opcn03_subn04_pren43b">OTROS, ESPECIFICAR</string>
+
+    <string-array name="formul_opcn03_subn04_pren43">
+        <item>MAYOR DE 60 AÑOS</item>
+        <item>HIPERTENSIÓN ARTERIAL</item>
+        <item>ENFERMEDAD CARDIOVASCULAR</item>
+        <item>DIABETES</item>
+        <item>OBESIDAD</item>
+        <item>ASMA</item>
+        <item>ENFERMEDAD PULMONAR CRÓNICA</item>
+        <item>INSUFICIENCIA RENAL CRÓNICA</item>
+        <item>ENFERMEDAD O TRATAMIENTO INMUNOSUPRESOR</item>
+        <item>CÁNCER</item>
+        <item>EMBARAZO O PUERPERIO</item>
+        <item>ENFERMEDAD HEPÁTICA</item>
+        <item>ENFERMEDAD CRÓNICA NEUROLÓGICA O NEUROMUSCULAR</item>
+        <item>OTROS</item>
+    </string-array>
+
+    <string-array name="formul_opcn03_subn04_pren43a">
+        <item>PRIMER TRIMESTRE</item>
+        <item>SEGUNDO TRIMESTRE</item>
+        <item>TERCER TRIMESTRE</item>
+    </string-array>
+
+    <string name="formul_opcn03_subn05">INFORMACIÓN DE VIAJE Y EXPOSICIÓN</string>
+
+    <string name="formul_opcn03_subn05_pren44">¿HA VIAJADO EN LOS 14 DÍAS ANTERIORES A LA FECHA DE INICIO DE SÍNTOMAS?</string>
+    <string name="formul_opcn03_subn05_resn44a">SI</string>
+    <string name="formul_opcn03_subn05_resn44b">NO</string>
+    <string name="formul_opcn03_subn05_pren44as">AGREGAR - VIAJE 1</string>
+    <string name="formul_opcn03_subn05_pren44a">VIAJE 1</string>
+    <string name="formul_opcn03_subn05_pren44aa">PAÍS</string>
+    <string name="formul_opcn03_subn05_pren44ab">CIUDAD</string>
+    <string name="formul_opcn03_subn05_pren44bs">AGREGAR - VIAJE 2</string>
+    <string name="formul_opcn03_subn05_pren44b">VIAJE 2</string>
+    <string name="formul_opcn03_subn05_pren44ba">PAÍS</string>
+    <string name="formul_opcn03_subn05_pren44bb">CIUDAD</string>
+    <string name="formul_opcn03_subn05_pren44cs">AGREGAR - VIAJE 3</string>
+    <string name="formul_opcn03_subn05_pren44c">VIAJE 3</string>
+    <string name="formul_opcn03_subn05_pren44ca">PAÍS</string>
+    <string name="formul_opcn03_subn05_pren44cb">CIUDAD</string>
+
+    <string-array name="formul_opcn03_subn05_pren44">
+        <item>SI</item>
+        <item>NO</item>
+    </string-array>
+
+    <string name="formul_opcn03_subn05_pren45">¿HA TENIDO CONTACTO CON UN CASO CONFIRMADO O PROBABLE EN LOS 14 DÍAS ANTES DEL INICIO DE SÍNTOMAS?</string>
+    <string name="formul_opcn03_subn05_resn45a">SI</string>
+    <string name="formul_opcn03_subn05_resn45b">NO</string>
+    <string name="formul_opcn03_subn05_resn45c">DESCONOCIDO</string>
+
+    <string-array name="formul_opcn03_subn05_pren45">
+        <item>SI</item>
+        <item>NO</item>
+        <item>DESCONOCIDO</item>
+    </string-array>
+
+    <string name="formul_opcn03_subn06">DATOS DE LABORATORIO</string>
+
+    <string name="formul_opcn03_subn06_pren46">FECHA DE OBTENCIÓN DE MUESTRA</string>
+    <string name="formul_opcn03_subn06_resn46_H">yyyy-mm-dd</string>
+
+    <string name="formul_opcn03_subn06_pren47">OBTENCIÓN DE MUESTRA PARA rt-PCR</string>
+    <string name="formul_opcn03_subn06_resn47a">HISOPADO NASAL Y FARINGEO</string>
+    <string name="formul_opcn03_subn06_resn47b">ASPIRADO TRAQUEAL</string>
+    <string name="formul_opcn03_subn06_resn47c">ASPIRADO BRONCOALVEOLAR</string>
+    <string name="formul_opcn03_subn06_resn47d">LAVADO BRONCOALVEOLAR</string>
+    <string name="formul_opcn03_subn06_resn47e">TEJIDO PULMONAR</string>
+
+    <string-array name="formul_opcn03_subn06_pren47">
+        <item>HISOPADO NASAL Y FARINGEO</item>
+        <item>ASPIRADO TRAQUEAL</item>
+        <item>ASPIRADO BRONCOALVEOLAR</item>
+        <item>LAVADO BRONCOALVEOLAR</item>
+        <item>TEJIDO PULMONAR</item>
+    </string-array>
+
+    <string name="formul_opcn03_subn07">CONTACTOS</string>
+
+    <string-array name="formul_opcn03_subn07_pren48">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+    </string-array>
+
+    <string name="formul_opcn03_subn07_pren48">NUMERO DE CONTACTOS A CONSIGNAR</string>
+    <string name="formul_opcn03_subn07_pren48_01">01</string>
+    <string name="formul_opcn03_subn07_pren48_02">02</string>
+    <string name="formul_opcn03_subn07_pren48_03">03</string>
+    <string name="formul_opcn03_subn07_pren48_04">04</string>
+    <string name="formul_opcn03_subn07_pren48_05">05</string>
+    <string name="formul_opcn03_subn07_pren48_06">06</string>
+    <string name="formul_opcn03_subn07_pren48_07">07</string>
+    <string name="formul_opcn03_subn07_pren48_08">08</string>
+    <string name="formul_opcn03_subn07_pren48_09">09</string>
+    <string name="formul_opcn03_subn07_pren48_10">10</string>
+    <string name="formul_opcn03_subn07_pren48as">AGREGAR - CONTACTO 01</string>
+    <string name="formul_opcn03_subn07_pren48a">CONTACTO 01</string>
+    <string name="formul_opcn03_subn07_pren48aas">APE NOM</string>
+    <string name="formul_opcn03_subn07_pren48aa">APELLIDOS Y NOMBRES(S)</string>
+    <string name="formul_opcn03_subn07_pren48abs">NÚM DOC</string>
+    <string name="formul_opcn03_subn07_pren48ab">NÚMERO DOCUMENTO</string>
+    <string name="formul_opcn03_subn07_pren48acs">NÚM CEL</string>
+    <string name="formul_opcn03_subn07_pren48ac">NÚMERO DE CELULAR</string>
+    <string name="formul_opcn03_subn07_pren48ad">FACTORES DE RIESGO</string>
+    <string name="formul_opcn03_subn07_resn48ada">MAYOR DE 60 AÑOS</string>
+    <string name="formul_opcn03_subn07_resn48adb">HIPERTENSIÓN ARTERIAL</string>
+    <string name="formul_opcn03_subn07_resn48adc">ENFERMEDADES CARDIOVASCULARES</string>
+    <string name="formul_opcn03_subn07_resn48add">DIABETES</string>
+    <string name="formul_opcn03_subn07_resn48ade">OBESIDAD</string>
+    <string name="formul_opcn03_subn07_resn48adf">ASMA</string>
+    <string name="formul_opcn03_subn07_resn48adg">ENFERMEDAD PULMONAR CRÓNICA</string>
+    <string name="formul_opcn03_subn07_resn48adh">INSUFICIENCIA RENAL CRÓNICA</string>
+    <string name="formul_opcn03_subn07_resn48adi">ENFERMEDAD O TRATAMIENTO INMUNOSUPRESOR</string>
+    <string name="formul_opcn03_subn07_resn48adj">CÁNCER</string>
+    <string name="formul_opcn03_subn07_resn48adk">TUBERCULOSIS</string>
+    <string name="formul_opcn03_subn07_resn48adl">PERSONAL DE SALUD</string>
+    <string name="formul_opcn03_subn07_resn48adm">EMBARAZO O PUERPERIO</string>
+    <string name="formul_opcn03_subn07_pren48ae">PARENTESCO</string>
+    <string name="formul_opcn03_subn07_resn48aea">PADRE</string>
+    <string name="formul_opcn03_subn07_resn48aeb">MADRE</string>
+    <string name="formul_opcn03_subn07_resn48aec">HIJA(A)</string>
+    <string name="formul_opcn03_subn07_resn48aed">PAREJA</string>
+    <string name="formul_opcn03_subn07_resn48aee">HERMANO(A)</string>
+    <string name="formul_opcn03_subn07_resn48aef">ABUELO(A)</string>
+    <string name="formul_opcn03_subn07_resn48aeg">TÍO(A)</string>
+    <string name="formul_opcn03_subn07_resn48aeh">SOBRINO(A)</string>
+    <string name="formul_opcn03_subn07_resn48aei">PRIMO(A)</string>
+    <string name="formul_opcn03_subn07_resn48aej">CUÑADO(A)</string>
+    <string name="formul_opcn03_subn07_resn48aek">SUEGRO(A)</string>
+    <string name="formul_opcn03_subn07_resn48ael">INQUILINO(A)</string>
+    <string name="formul_opcn03_subn07_resn48aem">AMIGO(A)</string>
+    <string name="formul_opcn03_subn07_resn48aen">OTRO</string>
+
+    <string-array name="formul_opcn03_subn07_pren48ad">
+        <item>MAYOR DE 60 AÑOS</item>
+        <item>HIPERTENSIÓN ARTERIAL</item>
+        <item>ENFERMEDAD CARDIOVASCULAR</item>
+        <item>DIABETES</item>
+        <item>OBESIDAD</item>
+        <item>ASMA</item>
+        <item>ENFERMEDAD PULMONAR CRÓNICA</item>
+        <item>INSUFICIENCIA RENAL CRÓNICA</item>
+        <item>ENFERMEDAD O TRATAMIENTO INMUNOSUPRESOR</item>
+        <item>CÁNCER</item>
+        <item>TUBERCULOSIS</item>
+        <item>PERSONAL DE SALUD</item>
+        <item>EMBARAZO O PUERPERIO</item>
+    </string-array>
+
+    <string name="formul_opcn03_subn07_pren48bs">AGREGAR - CONTACTO 02</string>
+    <string name="formul_opcn03_subn07_pren48b">Contacto 02</string>
+    <string name="formul_opcn03_subn07_pren48ba">APELLIDOS Y NOMBRES(S)</string>
+    <string name="formul_opcn03_subn07_pren48bb">NÚMERO DE DOCUMENTO</string>
+    <string name="formul_opcn03_subn07_pren48bc">NUMERO DE CELULAR</string>
+    <string name="formul_opcn03_subn07_pren48bd">FACTORES DE RIESGO</string>
+    <string name="formul_opcn03_subn07_resn48bda">Mayor de 60 años</string>
+    <string name="formul_opcn03_subn07_resn48bdb">Hipertensión arterial</string>
+    <string name="formul_opcn03_subn07_resn48bdc">Enfermedades cardiovasculares</string>
+    <string name="formul_opcn03_subn07_resn48bdd">Diabetes</string>
+    <string name="formul_opcn03_subn07_resn48bde">Obesidad</string>
+    <string name="formul_opcn03_subn07_resn48bdf">Asma</string>
+    <string name="formul_opcn03_subn07_resn48bdg">Enfermedad pulmonar crónica</string>
+    <string name="formul_opcn03_subn07_resn48bdh">Insuficiencia renal crónica</string>
+    <string name="formul_opcn03_subn07_resn48bdi">Enfermedad o tratamiento inmunosupresor</string>
+    <string name="formul_opcn03_subn07_resn48bdj">Cancer</string>
+    <string name="formul_opcn03_subn07_resn48bdk">Tuberculosis</string>
+    <string name="formul_opcn03_subn07_resn48bdl">Personal de Salud</string>
+    <string name="formul_opcn03_subn07_resn48bdm">Embarazo o puerperio</string>
+    <string name="formul_opcn03_subn07_pren48be">PARENTESCO</string>
+
+    <string name="formul_opcn03_subn07_pren48cs">AGREGAR - CONTACTO 03</string>
+    <string name="formul_opcn03_subn07_pren48c">Contacto 03</string>
+    <string name="formul_opcn03_subn07_pren48ca">APELLIDOS Y NOMBRES(S)</string>
+    <string name="formul_opcn03_subn07_pren48cb">NUMERO DE DNI</string>
+    <string name="formul_opcn03_subn07_pren48cc">NUMERO DE CELULAR</string>
+    <string name="formul_opcn03_subn07_pren48cd">FACTORES DE RIESGO</string>
+    <string name="formul_opcn03_subn07_resn48cda">Mayor de 60 años</string>
+    <string name="formul_opcn03_subn07_resn48cdb">Hipertensión arterial</string>
+    <string name="formul_opcn03_subn07_resn48cdc">Enfermedades cardiovasculares</string>
+    <string name="formul_opcn03_subn07_resn48cdd">Diabetes</string>
+    <string name="formul_opcn03_subn07_resn48cde">Obesidad</string>
+    <string name="formul_opcn03_subn07_resn48cdf">Asma</string>
+    <string name="formul_opcn03_subn07_resn48cdg">Enfermedad pulmonar crónica</string>
+    <string name="formul_opcn03_subn07_resn48cdh">Insuficiencia renal crónica</string>
+    <string name="formul_opcn03_subn07_resn48cdi">Enfermedad o tratamiento inmunosupresor</string>
+    <string name="formul_opcn03_subn07_resn48cdj">Cancer</string>
+    <string name="formul_opcn03_subn07_resn48cak">Tuberculosis</string>
+    <string name="formul_opcn03_subn07_resn48cdl">Personal de Salud</string>
+    <string name="formul_opcn03_subn07_resn48cdm">Embarazo o puerperio</string>
+    <string name="formul_opcn03_subn07_pren48ce">PARENTESCO</string>
+
+    <string name="formul_opcn03_subn07_pren48ds">AGREGAR - CONTACTO 04</string>
+    <string name="formul_opcn03_subn07_pren48d">Contacto 04</string>
+    <string name="formul_opcn03_subn07_pren48da">APELLIDOS Y NOMBRES(S)</string>
+    <string name="formul_opcn03_subn07_pren48db">NUMERO DE DNI</string>
+    <string name="formul_opcn03_subn07_pren48dc">NUMERO DE CELULAR</string>
+    <string name="formul_opcn03_subn07_pren48dd">FACTORES DE RIESGO</string>
+    <string name="formul_opcn03_subn07_resn48dda">Mayor de 60 años</string>
+    <string name="formul_opcn03_subn07_resn48ddb">Hipertensión arterial</string>
+    <string name="formul_opcn03_subn07_resn48ddc">Enfermedades cardiovasculares</string>
+    <string name="formul_opcn03_subn07_resn48ddd">Diabetes</string>
+    <string name="formul_opcn03_subn07_resn48dde">Obesidad</string>
+    <string name="formul_opcn03_subn07_resn48ddf">Asma</string>
+    <string name="formul_opcn03_subn07_resn48ddg">Enfermedad pulmonar crónica</string>
+    <string name="formul_opcn03_subn07_resn48ddh">Insuficiencia renal crónica</string>
+    <string name="formul_opcn03_subn07_resn48ddi">Enfermedad o tratamiento inmunosupresor</string>
+    <string name="formul_opcn03_subn07_resn48ddj">Cancer</string>
+    <string name="formul_opcn03_subn07_resn48ddk">Tuberculosis</string>
+    <string name="formul_opcn03_subn07_resn48ddl">Personal de Salud</string>
+    <string name="formul_opcn03_subn07_resn48ddm">Embarazo o puerperio</string>
+    <string name="formul_opcn03_subn07_pren48de">PARENTESCO</string>
+
+    <string name="formul_opcn03_subn07_pren48es">AGREGAR - CONTACTO 05</string>
+    <string name="formul_opcn03_subn07_pren48e">Contacto 05</string>
+    <string name="formul_opcn03_subn07_pren48ea">APELLIDOS Y NOMBRES(S)</string>
+    <string name="formul_opcn03_subn07_pren48eb">NUMERO DE DNI</string>
+    <string name="formul_opcn03_subn07_pren48ec">NUMERO DE CELULAR</string>
+    <string name="formul_opcn03_subn07_pren48ed">FACTORES DE RIESGO</string>
+    <string name="formul_opcn03_subn07_resn48eda">Mayor de 60 años</string>
+    <string name="formul_opcn03_subn07_resn48edb">Hipertensión arterial</string>
+    <string name="formul_opcn03_subn07_resn48edc">Enfermedades cardiovasculares</string>
+    <string name="formul_opcn03_subn07_resn48edd">Diabetes</string>
+    <string name="formul_opcn03_subn07_resn48ede">Obesidad</string>
+    <string name="formul_opcn03_subn07_resn48edf">Asma</string>
+    <string name="formul_opcn03_subn07_resn48edg">Enfermedad pulmonar crónica</string>
+    <string name="formul_opcn03_subn07_resn48edh">Insuficiencia renal crónica</string>
+    <string name="formul_opcn03_subn07_resn48edi">Enfermedad o tratamiento inmunosupresor</string>
+    <string name="formul_opcn03_subn07_resn48edj">Cancer</string>
+    <string name="formul_opcn03_subn07_resn48edk">Tuberculosis</string>
+    <string name="formul_opcn03_subn07_resn48edl">Personal de Salud</string>
+    <string name="formul_opcn03_subn07_resn48edm">Embarazo o puerperio</string>
+    <string name="formul_opcn03_subn07_pren48ee">PARENTESCO</string>
+
+    <string name="formul_opcn03_subn07_pren48fs">AGREGAR - CONTACTO 06</string>
+    <string name="formul_opcn03_subn07_pren48f">Contacto 06</string>
+    <string name="formul_opcn03_subn07_pren48fa">APELLIDOS Y NOMBRES(S)</string>
+    <string name="formul_opcn03_subn07_pren48fb">NUMERO DE DNI</string>
+    <string name="formul_opcn03_subn07_pren48fc">NUMERO DE CELULAR</string>
+    <string name="formul_opcn03_subn07_pren48fd">FACTORES DE RIESGO</string>
+    <string name="formul_opcn03_subn07_resn48fda">Mayor de 60 años</string>
+    <string name="formul_opcn03_subn07_resn48fdb">Hipertensión arterial</string>
+    <string name="formul_opcn03_subn07_resn48fdc">Enfermedades cardiovasculares</string>
+    <string name="formul_opcn03_subn07_resn48fdd">Diabetes</string>
+    <string name="formul_opcn03_subn07_resn48fde">Obesidad</string>
+    <string name="formul_opcn03_subn07_resn48fdf">Asma</string>
+    <string name="formul_opcn03_subn07_resn48fdg">Enfermedad pulmonar crónica</string>
+    <string name="formul_opcn03_subn07_resn48fdh">Insuficiencia renal crónica</string>
+    <string name="formul_opcn03_subn07_resn48fdi">Enfermedad o tratamiento inmunosupresor</string>
+    <string name="formul_opcn03_subn07_resn48fdj">Cancer</string>
+    <string name="formul_opcn03_subn07_resn48fdk">Tuberculosis</string>
+    <string name="formul_opcn03_subn07_resn48fdl">Personal de Salud</string>
+    <string name="formul_opcn03_subn07_resn48fdm">Embarazo o puerperio</string>
+    <string name="formul_opcn03_subn07_pren48fe">PARENTESCO</string>
+
+    <string name="formul_opcn03_subn07_pren48gs">AGREGAR - CONTACTO 07</string>
+    <string name="formul_opcn03_subn07_pren48g">Contacto 07</string>
+    <string name="formul_opcn03_subn07_pren48ga">APELLIDOS Y NOMBRES(S)</string>
+    <string name="formul_opcn03_subn07_pren48gb">NUMERO DE DNI</string>
+    <string name="formul_opcn03_subn07_pren48gc">NUMERO DE CELULAR</string>
+    <string name="formul_opcn03_subn07_pren48gd">FACTORES DE RIESGO</string>
+    <string name="formul_opcn03_subn07_resn48gda">Mayor de 60 años</string>
+    <string name="formul_opcn03_subn07_resn48gdb">Hipertensión arterial</string>
+    <string name="formul_opcn03_subn07_resn48gdc">Enfermedades cardiovasculares</string>
+    <string name="formul_opcn03_subn07_resn48gdd">Diabetes</string>
+    <string name="formul_opcn03_subn07_resn48gde">Obesidad</string>
+    <string name="formul_opcn03_subn07_resn48gdf">Asma</string>
+    <string name="formul_opcn03_subn07_resn48gdg">Enfermedad pulmonar crónica</string>
+    <string name="formul_opcn03_subn07_resn48gdh">Insuficiencia renal crónica</string>
+    <string name="formul_opcn03_subn07_resn48gdi">Enfermedad o tratamiento inmunosupresor</string>
+    <string name="formul_opcn03_subn07_resn48gdj">Cancer</string>
+    <string name="formul_opcn03_subn07_resn48gdk">Tuberculosis</string>
+    <string name="formul_opcn03_subn07_resn48gdl">Personal de Salud</string>
+    <string name="formul_opcn03_subn07_resn48gdm">Embarazo o puerperio</string>
+    <string name="formul_opcn03_subn07_pren48ge">PARENTESCO</string>
+
+    <string name="formul_opcn03_subn07_pren48hs">AGREGAR - CONTACTO 08</string>
+    <string name="formul_opcn03_subn07_pren48h">Contacto 08</string>
+    <string name="formul_opcn03_subn07_pren48ha">APELLIDOS Y NOMBRES(S)</string>
+    <string name="formul_opcn03_subn07_pren48hb">NUMERO DE DNI</string>
+    <string name="formul_opcn03_subn07_pren48hc">NUMERO DE CELULAR</string>
+    <string name="formul_opcn03_subn07_pren48hd">FACTORES DE RIESGO</string>
+    <string name="formul_opcn03_subn07_resn48hda">Mayor de 60 años</string>
+    <string name="formul_opcn03_subn07_resn48hdb">Hipertensión arterial</string>
+    <string name="formul_opcn03_subn07_resn48hdc">Enfermedades cardiovasculares</string>
+    <string name="formul_opcn03_subn07_resn48hdd">Diabetes</string>
+    <string name="formul_opcn03_subn07_resn48hde">Obesidad</string>
+    <string name="formul_opcn03_subn07_resn48hdf">Asma</string>
+    <string name="formul_opcn03_subn07_resn48hdg">Enfermedad pulmonar crónica</string>
+    <string name="formul_opcn03_subn07_resn48hdh">Insuficiencia renal crónica</string>
+    <string name="formul_opcn03_subn07_resn48hdi">Enfermedad o tratamiento inmunosupresor</string>
+    <string name="formul_opcn03_subn07_resn48hdj">Cancer</string>
+    <string name="formul_opcn03_subn07_resn48hdk">Tuberculosis</string>
+    <string name="formul_opcn03_subn07_resn48hdl">Personal de Salud</string>
+    <string name="formul_opcn03_subn07_resn48hdm">Embarazo o puerperio</string>
+    <string name="formul_opcn03_subn07_pren48he">PARENTESCO</string>
+
+    <string name="formul_opcn03_subn07_pren48is">AGREGAR - CONTACTO 09</string>
+    <string name="formul_opcn03_subn07_pren48i">Contacto 09</string>
+    <string name="formul_opcn03_subn07_pren48ia">APELLIDOS Y NOMBRES(S)</string>
+    <string name="formul_opcn03_subn07_pren48ib">NUMERO DE DNI</string>
+    <string name="formul_opcn03_subn07_pren48ic">NUMERO DE CELULAR</string>
+    <string name="formul_opcn03_subn07_pren48id">FACTORES DE RIESGO</string>
+    <string name="formul_opcn03_subn07_resn48ida">Mayor de 60 años</string>
+    <string name="formul_opcn03_subn07_resn48idb">Hipertensión arterial</string>
+    <string name="formul_opcn03_subn07_resn48idc">Enfermedades cardiovasculares</string>
+    <string name="formul_opcn03_subn07_resn48idd">Diabetes</string>
+    <string name="formul_opcn03_subn07_resn48ide">Obesidad</string>
+    <string name="formul_opcn03_subn07_resn48idf">Asma</string>
+    <string name="formul_opcn03_subn07_resn48idg">Enfermedad pulmonar crónica</string>
+    <string name="formul_opcn03_subn07_resn48idh">Insuficiencia renal crónica</string>
+    <string name="formul_opcn03_subn07_resn48idi">Enfermedad o tratamiento inmunosupresor</string>
+    <string name="formul_opcn03_subn07_resn48idj">Cancer</string>
+    <string name="formul_opcn03_subn07_resn48idk">Tuberculosis</string>
+    <string name="formul_opcn03_subn07_resn48idl">Personal de Salud</string>
+    <string name="formul_opcn03_subn07_resn48idm">Embarazo o puerperio</string>
+    <string name="formul_opcn03_subn07_pren48ie">PARENTESCO</string>
+
+    <string name="formul_opcn03_subn07_pren48js">AGREGAR - CONTACTO 10</string>
+    <string name="formul_opcn03_subn07_pren48j">Contacto 10</string>
+    <string name="formul_opcn03_subn07_pren48ja">APELLIDOS Y NOMBRES(S)</string>
+    <string name="formul_opcn03_subn07_pren48jb">NUMERO DE DNI</string>
+    <string name="formul_opcn03_subn07_pren48jc">NUMERO DE CELULAR</string>
+    <string name="formul_opcn03_subn07_pren48jd">FACTORES DE RIESGO</string>
+    <string name="formul_opcn03_subn07_resn48jda">Mayor de 60 años</string>
+    <string name="formul_opcn03_subn07_resn48jdb">Hipertensión arterial</string>
+    <string name="formul_opcn03_subn07_resn48jdc">Enfermedades cardiovasculares</string>
+    <string name="formul_opcn03_subn07_resn48jdd">Diabetes</string>
+    <string name="formul_opcn03_subn07_resn48jde">Obesidad</string>
+    <string name="formul_opcn03_subn07_resn48jdf">Asma</string>
+    <string name="formul_opcn03_subn07_resn48jdg">Enfermedad pulmonar crónica</string>
+    <string name="formul_opcn03_subn07_resn48jdh">Insuficiencia renal crónica</string>
+    <string name="formul_opcn03_subn07_resn48jdi">Enfermedad o tratamiento inmunosupresor</string>
+    <string name="formul_opcn03_subn07_resn48jdj">Cancer</string>
+    <string name="formul_opcn03_subn07_resn48jdk">Tuberculosis</string>
+    <string name="formul_opcn03_subn07_resn48jdl">Personal de Salud</string>
+    <string name="formul_opcn03_subn07_resn48jdm">Embarazo o puerperio</string>
+    <string name="formul_opcn03_subn07_pren48je">PARENTESCO</string>
+
+    <string name="formul_opcn03_subn07_pren48k">¿DESEA AÑADIR ALGUNA OBSERVACIÓN?</string>
+
+    <string name="formul_opcn03_subn07_pren49">¿SE PROCEDERÁ A LLENAR FICHA DE SEGUIMIENTO?</string>
+    <string name="formul_opcn03_subn07_resn49a">SI</string>
+    <string name="formul_opcn03_subn07_resn49b">NO</string>
+
+    <string-array name="formul_opcn03_subn07_pren49">
+        <item>SI</item>
+        <item>NO</item>
+    </string-array>
+
+    <!--  Formulario F300  -->
+
+    <string name="formul_opcn04_titulo">F300 FICHA DE SEGUIMIENTO</string>
+
+    <string name="formul_opcn04_subn01">DATOS GENERALES</string>
+
+    <string name="formul_opcn04_subn01_pren50">FECHA INICIO SÍNTOMAS</string>
+    <string name="formul_opcn04_subn01_pren50_H">yyyy-mm-dd</string>
+
+    <string name="formul_opcn04_subn01_pren51">FECHA DE TOMA MUESTRA</string>
+    <string name="formul_opcn04_subn01_pren51_H">yyyy-mm-dd</string>
+
+    <string name="formul_opcn04_subn01_pren52">FECHA DEL RESULTADO</string>
+    <string name="formul_opcn04_subn01_pren52_H">yyyy-mm-dd</string>
+
+    <string name="formul_opcn04_subn02">DATOS DEL SEGUIMIENTO</string>
+
+    <string name="formul_opcn04_subn02_pren53">NÚMERO DE DÍA</string>
+
+    <string name="formul_opcn04_subn02_pren54">FECHA DEL SEGUIMIENTO</string>
+    <string name="formul_opcn04_subn02_pren54_H">yyyy-mm-dd</string>
+
+    <string name="formul_opcn04_subn02_pren55">TIPO DE MONITOREO</string>
+    <string name="formul_opcn04_subn02_resn55a">Visita presencial</string>
+    <string name="formul_opcn04_subn02_resn55b">Llamada telefónica</string>
+
+    <string-array name="formul_opcn04_subn02_pren55">
+        <item>VISITA PRESENCIAL</item>
+        <item>LLAMADA TELEFÓNICA</item>
+    </string-array>
+
+    <string name="formul_opcn04_subn03">FUNCIONES VITALES</string>
+
+    <string name="formul_opcn04_subn03_pren56">PRESIÓN ARTERIAL</string>
+
+    <string name="formul_opcn04_subn03_pren57">FRECUENCIA CARDIACA</string>
+
+    <string name="formul_opcn04_subn03_pren58">FRECUENCIA RESPIRATORIA</string>
+
+    <string name="formul_opcn04_subn03_pren59">TEMPERATURA</string>
+
+    <string name="formul_opcn04_subn04">SÍNTOMAS</string>
+
+    <string name="formul_opcn04_subn04_pren60">¿PRESENTA ALGÚN SÍNTOMA?</string>
+    <string name="formul_opcn04_subn04_resn60a">SI</string>
+    <string name="formul_opcn04_subn04_resn60b">NO</string>
+
+    <string-array name="formul_opcn04_subn04_pren60">
+        <item>SI</item>
+        <item>NO</item>
+    </string-array>
+
+    <string name="formul_opcn04_subn04_pren61">MARQUE LOS SÍNTOMAS QUE PRESENTA</string>
+    <string name="formul_opcn04_subn04_resn61a">TOS</string>
+    <string name="formul_opcn04_subn04_resn61b">DOLOR DE GARGANTA</string>
+    <string name="formul_opcn04_subn04_resn61c">CONGESTIÓN NASAL</string>
+    <string name="formul_opcn04_subn04_resn61d">FIEBRE</string>
+    <string name="formul_opcn04_subn04_resn61e">MALESTAR GENERAL</string>
+    <string name="formul_opcn04_subn04_resn61f">DIFICULTAD RESPIRATORIA</string>
+    <string name="formul_opcn04_subn04_resn61g">DIARREA</string>
+    <string name="formul_opcn04_subn04_resn61h">NAUSEA/VÓMITO</string>
+    <string name="formul_opcn04_subn04_resn61i">CEFALEA</string>
+    <string name="formul_opcn04_subn04_resn61j">OTRO</string>
+    <string name="formul_opcn04_subn04_pren61a">OTROS, ESPECIFICAR</string>
+
+    <string-array name="formul_opcn04_subn04_pren61">
+        <item>TOS</item>
+        <item>DOLOR DE GARGANTA</item>
+        <item>CONGESTIÓN NASAL</item>
+        <item>FIEBRE</item>
+        <item>MALESTAR GENERAL</item>
+        <item>DIFICULTAD RESPIRATORIA</item>
+        <item>DIARREA</item>
+        <item>NAUSEA/VÓMITO</item>
+        <item>CEFALEA</item>
+        <item>OTRO</item>
+    </string-array>
+
+    <string name="formul_opcn04_subn05">SIGNOS DE ALARMA</string>
+
+    <string name="formul_opcn04_subn05_pren62">MARQUE LOS SIGNOS DE ALARMA QUE PRESENTA</string>
+    <string name="formul_opcn04_subn05_resn62a">Disnea</string>
+    <string name="formul_opcn04_subn05_resn62b">Taquipnea (>=30 rpm)</string>
+    <string name="formul_opcn04_subn05_resn62c">Saturación de oxigeno &lt; 92%</string>
+    <string name="formul_opcn04_subn05_resn62d">Alteración de la conciencia</string>
+    <string name="formul_opcn04_subn05_resn62e">NINGÚN SIGNO DE ALARMA</string>
+    <string name="formul_opcn04_subn05_resn62f">OTROS</string>
+    <string name="formul_opcn04_subn05_pren62a">OTROS, ESPECIFICAR</string>
+
+    <string-array name="formul_opcn04_subn05_pren62">
+        <item>DISNEA</item>
+        <item>TAQUIPNEA (>=30 rpm)</item>
+        <item>SATURACIÓN DE OXIGENO &lt; 92%</item>
+        <item>ALTERACIÓN DE LA CONCIENCIA</item>
+        <item>NINGÚN SIGNO DE ALARMA</item>
+        <item>OTROS</item>
+    </string-array>
+
+    <string name="formul_opcn04_subn06">EVOLUCIÓN</string>
+
+    <string name="formul_opcn04_subn06_pren63">EVOLUCIÓN</string>
+    <string name="formul_opcn04_subn06_resn63a">Favorable</string>
+    <string name="formul_opcn04_subn06_resn63b">Estacionario</string>
+    <string name="formul_opcn04_subn06_resn63c">Desfavorable</string>
+    <string name="formul_opcn04_subn06_resn63d">Fallecido</string>
+
+    <string-array name="formul_opcn04_subn06_pren63">
+        <item>FAVORABLE</item>
+        <item>ESTACIONARIO</item>
+        <item>DESFAVORABLE</item>
+        <item>FALLECIDO</item>
+    </string-array>
+
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_registro">Registro</string>
+    <string name="title_enviar">Enviar</string>
+    <string name="title_logout">Salir</string>
+    <string name="title_fichas">Fichas</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

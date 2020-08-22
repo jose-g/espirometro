@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_registro"
+        android:icon="@drawable/email_inbox_48"
+        android:title="Cronograma" />
+    <!---android:title="@string/title_registro" -->
+
+    <item
+        android:id="@+id/navigation_fichas"
+        android:icon="@drawable/email_outbox_48"
+        android:title= "Perfil" />
+    <!--android:title="@string/title_enviar"-->
+
+    <item
+        android:id="@+id/navigation_logout"
+        android:icon="@drawable/ic_exit_to_app_grey600_24dp"
+        android:title="@string/title_logout" />
+    <!--android:title="@string/title_logout" -->
+
+</menu>

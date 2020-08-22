@@ -1,0 +1,982 @@
+[
+    {
+        "cod_telefono": "+297",
+        "sufijo": "ABW"
+    },
+    {
+        "cod_telefono": "+93",
+        "sufijo": "AFG"
+    },
+    {
+        "cod_telefono": "+244",
+        "sufijo": "AGO"
+    },
+    {
+        "cod_telefono": "+1 264",
+        "sufijo": "AIA"
+    },
+    {
+        "cod_telefono": "+358",
+        "sufijo": "ALA"
+    },
+    {
+        "cod_telefono": "+355",
+        "sufijo": "ALB"
+    },
+    {
+        "cod_telefono": "+376",
+        "sufijo": "AND"
+    },
+    {
+        "cod_telefono": "+971",
+        "sufijo": "ARE"
+    },
+    {
+        "cod_telefono": "+54",
+        "sufijo": "ARG"
+    },
+    {
+        "cod_telefono": "+374",
+        "sufijo": "ARM"
+    },
+    {
+        "cod_telefono": "+1 684",
+        "sufijo": "ASM"
+    },
+    {
+        "cod_telefono": "+672",
+        "sufijo": "ATA"
+    },
+    {
+        "cod_telefono": "+1 268",
+        "sufijo": "ATG"
+    },
+    {
+        "cod_telefono": "+61",
+        "sufijo": "AUS"
+    },
+    {
+        "cod_telefono": "+43",
+        "sufijo": "AUT"
+    },
+    {
+        "cod_telefono": "+994",
+        "sufijo": "AZE"
+    },
+    {
+        "cod_telefono": "+257",
+        "sufijo": "BDI"
+    },
+    {
+        "cod_telefono": "+32",
+        "sufijo": "BEL"
+    },
+    {
+        "cod_telefono": "+229",
+        "sufijo": "BEN"
+    },
+    {
+        "cod_telefono": "+599",
+        "sufijo": "BES"
+    },
+    {
+        "cod_telefono": "+226",
+        "sufijo": "BFA"
+    },
+    {
+        "cod_telefono": "+880",
+        "sufijo": "BGD"
+    },
+    {
+        "cod_telefono": "+359",
+        "sufijo": "BGR"
+    },
+    {
+        "cod_telefono": "+973",
+        "sufijo": "BHR"
+    },
+    {
+        "cod_telefono": "+1 242",
+        "sufijo": "BHS"
+    },
+    {
+        "cod_telefono": "+387",
+        "sufijo": "BIH"
+    },
+    {
+        "cod_telefono": "+590",
+        "sufijo": "BLM"
+    },
+    {
+        "cod_telefono": "+375",
+        "sufijo": "BLR"
+    },
+    {
+        "cod_telefono": "+501",
+        "sufijo": "BLZ"
+    },
+    {
+        "cod_telefono": "+1 441",
+        "sufijo": "BMU"
+    },
+    {
+        "cod_telefono": "+591",
+        "sufijo": "BOL"
+    },
+    {
+        "cod_telefono": "+55",
+        "sufijo": "BRA"
+    },
+    {
+        "cod_telefono": "+1 246",
+        "sufijo": "BRB"
+    },
+    {
+        "cod_telefono": "+673",
+        "sufijo": "BRN"
+    },
+    {
+        "cod_telefono": "+975",
+        "sufijo": "BTN"
+    },
+    {
+        "cod_telefono": "+267",
+        "sufijo": "BWA"
+    },
+    {
+        "cod_telefono": "+236",
+        "sufijo": "CAF"
+    },
+    {
+        "cod_telefono": "+1",
+        "sufijo": "CAN"
+    },
+    {
+        "cod_telefono": "+61",
+        "sufijo": "CCK"
+    },
+    {
+        "cod_telefono": "+41",
+        "sufijo": "CHE"
+    },
+    {
+        "cod_telefono": "+56",
+        "sufijo": "CHL"
+    },
+    {
+        "cod_telefono": "+86",
+        "sufijo": "CHN"
+    },
+    {
+        "cod_telefono": "+225",
+        "sufijo": "CIV"
+    },
+    {
+        "cod_telefono": "+237",
+        "sufijo": "CMR"
+    },
+    {
+        "cod_telefono": "+243",
+        "sufijo": "COD"
+    },
+    {
+        "cod_telefono": "+242",
+        "sufijo": "COG"
+    },
+    {
+        "cod_telefono": "+682",
+        "sufijo": "COK"
+    },
+    {
+        "cod_telefono": "+57",
+        "sufijo": "COL"
+    },
+    {
+        "cod_telefono": "+269",
+        "sufijo": "COM"
+    },
+    {
+        "cod_telefono": "+238",
+        "sufijo": "CPV"
+    },
+    {
+        "cod_telefono": "+506",
+        "sufijo": "CRI"
+    },
+    {
+        "cod_telefono": "+53",
+        "sufijo": "CUB"
+    },
+    {
+        "cod_telefono": "+5999",
+        "sufijo": "CUW"
+    },
+    {
+        "cod_telefono": "+61",
+        "sufijo": "CXR"
+    },
+    {
+        "cod_telefono": "+1 345",
+        "sufijo": "CYM"
+    },
+    {
+        "cod_telefono": "+357",
+        "sufijo": "CYP"
+    },
+    {
+        "cod_telefono": "+420",
+        "sufijo": "CZE"
+    },
+    {
+        "cod_telefono": "+49",
+        "sufijo": "DEU"
+    },
+    {
+        "cod_telefono": "+253",
+        "sufijo": "DJI"
+    },
+    {
+        "cod_telefono": "+1 767",
+        "sufijo": "DMA"
+    },
+    {
+        "cod_telefono": "+45",
+        "sufijo": "DNK"
+    },
+    {
+        "cod_telefono": "+1 809",
+        "sufijo": "DOM"
+    },
+    {
+        "cod_telefono": "+213",
+        "sufijo": "DZA"
+    },
+    {
+        "cod_telefono": "+593",
+        "sufijo": "ECU"
+    },
+    {
+        "cod_telefono": "+20",
+        "sufijo": "EGY"
+    },
+    {
+        "cod_telefono": "+291",
+        "sufijo": "ERI"
+    },
+    {
+        "cod_telefono": "+212",
+        "sufijo": "ESH"
+    },
+    {
+        "cod_telefono": "+34",
+        "sufijo": "ESP"
+    },
+    {
+        "cod_telefono": "+372",
+        "sufijo": "EST"
+    },
+    {
+        "cod_telefono": "+251",
+        "sufijo": "ETH"
+    },
+    {
+        "cod_telefono": "+358",
+        "sufijo": "FIN"
+    },
+    {
+        "cod_telefono": "+679",
+        "sufijo": "FJI"
+    },
+    {
+        "cod_telefono": "+500",
+        "sufijo": "FLK"
+    },
+    {
+        "cod_telefono": "+33",
+        "sufijo": "FRA"
+    },
+    {
+        "cod_telefono": "+298",
+        "sufijo": "FRO"
+    },
+    {
+        "cod_telefono": "+691",
+        "sufijo": "FSM"
+    },
+    {
+        "cod_telefono": "+241",
+        "sufijo": "GAB"
+    },
+    {
+        "cod_telefono": "+44",
+        "sufijo": "GBR"
+    },
+    {
+        "cod_telefono": "+995",
+        "sufijo": "GEO"
+    },
+    {
+        "cod_telefono": "+44",
+        "sufijo": "GGY"
+    },
+    {
+        "cod_telefono": "+233",
+        "sufijo": "GHA"
+    },
+    {
+        "cod_telefono": "+350",
+        "sufijo": "GIB"
+    },
+    {
+        "cod_telefono": "+224",
+        "sufijo": "GIN"
+    },
+    {
+        "cod_telefono": "+590",
+        "sufijo": "GLP"
+    },
+    {
+        "cod_telefono": "+220",
+        "sufijo": "GMB"
+    },
+    {
+        "cod_telefono": "+245",
+        "sufijo": "GNB"
+    },
+    {
+        "cod_telefono": "+240",
+        "sufijo": "GNQ"
+    },
+    {
+        "cod_telefono": "+30",
+        "sufijo": "GRC"
+    },
+    {
+        "cod_telefono": "+1 473",
+        "sufijo": "GRD"
+    },
+    {
+        "cod_telefono": "+299",
+        "sufijo": "GRL"
+    },
+    {
+        "cod_telefono": "+502",
+        "sufijo": "GTM"
+    },
+    {
+        "cod_telefono": "+594",
+        "sufijo": "GUF"
+    },
+    {
+        "cod_telefono": "+1 671",
+        "sufijo": "GUM"
+    },
+    {
+        "cod_telefono": "+592",
+        "sufijo": "GUY"
+    },
+    {
+        "cod_telefono": "+852",
+        "sufijo": "HKG"
+    },
+    {
+        "cod_telefono": "+504",
+        "sufijo": "HND"
+    },
+    {
+        "cod_telefono": "+385",
+        "sufijo": "HRV"
+    },
+    {
+        "cod_telefono": "+509",
+        "sufijo": "HTI"
+    },
+    {
+        "cod_telefono": "+36",
+        "sufijo": "HUN"
+    },
+    {
+        "cod_telefono": "+62",
+        "sufijo": "IDN"
+    },
+    {
+        "cod_telefono": "+44",
+        "sufijo": "IMN"
+    },
+    {
+        "cod_telefono": "+91",
+        "sufijo": "IND"
+    },
+    {
+        "cod_telefono": "+246",
+        "sufijo": "IOT"
+    },
+    {
+        "cod_telefono": "+353",
+        "sufijo": "IRL"
+    },
+    {
+        "cod_telefono": "+98",
+        "sufijo": "IRN"
+    },
+    {
+        "cod_telefono": "+964",
+        "sufijo": "IRQ"
+    },
+    {
+        "cod_telefono": "+354",
+        "sufijo": "ISL"
+    },
+    {
+        "cod_telefono": "+972",
+        "sufijo": "ISR"
+    },
+    {
+        "cod_telefono": "+39",
+        "sufijo": "ITA"
+    },
+    {
+        "cod_telefono": "+1 876",
+        "sufijo": "JAM"
+    },
+    {
+        "cod_telefono": "+44",
+        "sufijo": "JEY"
+    },
+    {
+        "cod_telefono": "+962",
+        "sufijo": "JOR"
+    },
+    {
+        "cod_telefono": "+81",
+        "sufijo": "JPN"
+    },
+    {
+        "cod_telefono": "+7",
+        "sufijo": "KAZ"
+    },
+    {
+        "cod_telefono": "+254",
+        "sufijo": "KEN"
+    },
+    {
+        "cod_telefono": "+996",
+        "sufijo": "KGZ"
+    },
+    {
+        "cod_telefono": "+855",
+        "sufijo": "KHM"
+    },
+    {
+        "cod_telefono": "+686",
+        "sufijo": "KIR"
+    },
+    {
+        "cod_telefono": "+1 869",
+        "sufijo": "KNA"
+    },
+    {
+        "cod_telefono": "+82",
+        "sufijo": "KOR"
+    },
+    {
+        "cod_telefono": "+965",
+        "sufijo": "KWT"
+    },
+    {
+        "cod_telefono": "+856",
+        "sufijo": "LAO"
+    },
+    {
+        "cod_telefono": "+961",
+        "sufijo": "LBN"
+    },
+    {
+        "cod_telefono": "+231",
+        "sufijo": "LBR"
+    },
+    {
+        "cod_telefono": "+218",
+        "sufijo": "LBY"
+    },
+    {
+        "cod_telefono": "+1 758",
+        "sufijo": "LCA"
+    },
+    {
+        "cod_telefono": "+423",
+        "sufijo": "LIE"
+    },
+    {
+        "cod_telefono": "+94",
+        "sufijo": "LKA"
+    },
+    {
+        "cod_telefono": "+266",
+        "sufijo": "LSO"
+    },
+    {
+        "cod_telefono": "+370",
+        "sufijo": "LTU"
+    },
+    {
+        "cod_telefono": "+352",
+        "sufijo": "LUX"
+    },
+    {
+        "cod_telefono": "+371",
+        "sufijo": "LVA"
+    },
+    {
+        "cod_telefono": "+853",
+        "sufijo": "MAC"
+    },
+    {
+        "cod_telefono": "+1 599",
+        "sufijo": "MAF"
+    },
+    {
+        "cod_telefono": "+212",
+        "sufijo": "MAR"
+    },
+    {
+        "cod_telefono": "+377",
+        "sufijo": "MCO"
+    },
+    {
+        "cod_telefono": "+373",
+        "sufijo": "MDA"
+    },
+    {
+        "cod_telefono": "+261",
+        "sufijo": "MDG"
+    },
+    {
+        "cod_telefono": "+960",
+        "sufijo": "MDV"
+    },
+    {
+        "cod_telefono": "+52",
+        "sufijo": "MEX"
+    },
+    {
+        "cod_telefono": "+692",
+        "sufijo": "MHL"
+    },
+    {
+        "cod_telefono": "+389",
+        "sufijo": "MKD"
+    },
+    {
+        "cod_telefono": "+223",
+        "sufijo": "MLI"
+    },
+    {
+        "cod_telefono": "+356",
+        "sufijo": "MLT"
+    },
+    {
+        "cod_telefono": "+95",
+        "sufijo": "MMR"
+    },
+    {
+        "cod_telefono": "+382",
+        "sufijo": "MNE"
+    },
+    {
+        "cod_telefono": "+976",
+        "sufijo": "MNG"
+    },
+    {
+        "cod_telefono": "+1 670",
+        "sufijo": "MNP"
+    },
+    {
+        "cod_telefono": "+258",
+        "sufijo": "MOZ"
+    },
+    {
+        "cod_telefono": "+222",
+        "sufijo": "MRT"
+    },
+    {
+        "cod_telefono": "+1 664",
+        "sufijo": "MSR"
+    },
+    {
+        "cod_telefono": "+596",
+        "sufijo": "MTQ"
+    },
+    {
+        "cod_telefono": "+230",
+        "sufijo": "MUS"
+    },
+    {
+        "cod_telefono": "+265",
+        "sufijo": "MWI"
+    },
+    {
+        "cod_telefono": "+60",
+        "sufijo": "MYS"
+    },
+    {
+        "cod_telefono": "+262",
+        "sufijo": "MYT"
+    },
+    {
+        "cod_telefono": "+264",
+        "sufijo": "NAM"
+    },
+    {
+        "cod_telefono": "+687",
+        "sufijo": "NCL"
+    },
+    {
+        "cod_telefono": "+227",
+        "sufijo": "NER"
+    },
+    {
+        "cod_telefono": "+672",
+        "sufijo": "NFK"
+    },
+    {
+        "cod_telefono": "+234",
+        "sufijo": "NGA"
+    },
+    {
+        "cod_telefono": "+505",
+        "sufijo": "NIC"
+    },
+    {
+        "cod_telefono": "+683",
+        "sufijo": "NIU"
+    },
+    {
+        "cod_telefono": "+31",
+        "sufijo": "NLD"
+    },
+    {
+        "cod_telefono": "+47",
+        "sufijo": "NOR"
+    },
+    {
+        "cod_telefono": "+977",
+        "sufijo": "NPL"
+    },
+    {
+        "cod_telefono": "+674",
+        "sufijo": "NRU"
+    },
+    {
+        "cod_telefono": "+64",
+        "sufijo": "NZL"
+    },
+    {
+        "cod_telefono": "+968",
+        "sufijo": "OMN"
+    },
+    {
+        "cod_telefono": "+92",
+        "sufijo": "PAK"
+    },
+    {
+        "cod_telefono": "+507",
+        "sufijo": "PAN"
+    },
+    {
+        "cod_telefono": "+870",
+        "sufijo": "PCN"
+    },
+    {
+        "cod_telefono": "+51",
+        "sufijo": "PER"
+    },
+    {
+        "cod_telefono": "+63",
+        "sufijo": "PHL"
+    },
+    {
+        "cod_telefono": "+680",
+        "sufijo": "PLW"
+    },
+    {
+        "cod_telefono": "+675",
+        "sufijo": "PNG"
+    },
+    {
+        "cod_telefono": "+48",
+        "sufijo": "POL"
+    },
+    {
+        "cod_telefono": "+1",
+        "sufijo": "PRI"
+    },
+    {
+        "cod_telefono": "+850",
+        "sufijo": "PRK"
+    },
+    {
+        "cod_telefono": "+351",
+        "sufijo": "PRT"
+    },
+    {
+        "cod_telefono": "+595",
+        "sufijo": "PRY"
+    },
+    {
+        "cod_telefono": "+970",
+        "sufijo": "PSE"
+    },
+    {
+        "cod_telefono": "+689",
+        "sufijo": "PYF"
+    },
+    {
+        "cod_telefono": "+974",
+        "sufijo": "QAT"
+    },
+    {
+        "cod_telefono": "+262",
+        "sufijo": "REU"
+    },
+    {
+        "cod_telefono": "+40",
+        "sufijo": "ROU"
+    },
+    {
+        "cod_telefono": "+7",
+        "sufijo": "RUS"
+    },
+    {
+        "cod_telefono": "+250",
+        "sufijo": "RWA"
+    },
+    {
+        "cod_telefono": "+966",
+        "sufijo": "SAU"
+    },
+    {
+        "cod_telefono": "+249",
+        "sufijo": "SDN"
+    },
+    {
+        "cod_telefono": "+221",
+        "sufijo": "SEN"
+    },
+    {
+        "cod_telefono": "+65",
+        "sufijo": "SGP"
+    },
+    {
+        "cod_telefono": "+500",
+        "sufijo": "SGS"
+    },
+    {
+        "cod_telefono": "+290",
+        "sufijo": "SHN"
+    },
+    {
+        "cod_telefono": "+47",
+        "sufijo": "SJM"
+    },
+    {
+        "cod_telefono": "+677",
+        "sufijo": "SLB"
+    },
+    {
+        "cod_telefono": "+232",
+        "sufijo": "SLE"
+    },
+    {
+        "cod_telefono": "+503",
+        "sufijo": "SLV"
+    },
+    {
+        "cod_telefono": "+378",
+        "sufijo": "SMR"
+    },
+    {
+        "cod_telefono": "+252",
+        "sufijo": "SOM"
+    },
+    {
+        "cod_telefono": "+508",
+        "sufijo": "SPM"
+    },
+    {
+        "cod_telefono": "+381",
+        "sufijo": "SRB"
+    },
+    {
+        "cod_telefono": "+211",
+        "sufijo": "SSD"
+    },
+    {
+        "cod_telefono": "+239",
+        "sufijo": "STP"
+    },
+    {
+        "cod_telefono": "+597",
+        "sufijo": "SUR"
+    },
+    {
+        "cod_telefono": "+421",
+        "sufijo": "SVK"
+    },
+    {
+        "cod_telefono": "+386",
+        "sufijo": "SVN"
+    },
+    {
+        "cod_telefono": "+46",
+        "sufijo": "SWE"
+    },
+    {
+        "cod_telefono": "+268",
+        "sufijo": "SWZ"
+    },
+    {
+        "cod_telefono": "+248",
+        "sufijo": "SYC"
+    },
+    {
+        "cod_telefono": "+963",
+        "sufijo": "SYR"
+    },
+    {
+        "cod_telefono": "+1 649",
+        "sufijo": "TCA"
+    },
+    {
+        "cod_telefono": "+235",
+        "sufijo": "TCD"
+    },
+    {
+        "cod_telefono": "+228",
+        "sufijo": "TGO"
+    },
+    {
+        "cod_telefono": "+66",
+        "sufijo": "THA"
+    },
+    {
+        "cod_telefono": "+992",
+        "sufijo": "TJK"
+    },
+    {
+        "cod_telefono": "+690",
+        "sufijo": "TKL"
+    },
+    {
+        "cod_telefono": "+993",
+        "sufijo": "TKM"
+    },
+    {
+        "cod_telefono": "+670",
+        "sufijo": "TLS"
+    },
+    {
+        "cod_telefono": "+676",
+        "sufijo": "TON"
+    },
+    {
+        "cod_telefono": "+1 868",
+        "sufijo": "TTO"
+    },
+    {
+        "cod_telefono": "+216",
+        "sufijo": "TUN"
+    },
+    {
+        "cod_telefono": "+90",
+        "sufijo": "TUR"
+    },
+    {
+        "cod_telefono": "+688",
+        "sufijo": "TUV"
+    },
+    {
+        "cod_telefono": "+886",
+        "sufijo": "TWN"
+    },
+    {
+        "cod_telefono": "+255",
+        "sufijo": "TZA"
+    },
+    {
+        "cod_telefono": "+256",
+        "sufijo": "UGA"
+    },
+    {
+        "cod_telefono": "+380",
+        "sufijo": "UKR"
+    },
+    {
+        "cod_telefono": "+246",
+        "sufijo": "UMI"
+    },
+    {
+        "cod_telefono": "+598",
+        "sufijo": "URY"
+    },
+    {
+        "cod_telefono": "+1",
+        "sufijo": "USA"
+    },
+    {
+        "cod_telefono": "+998",
+        "sufijo": "UZB"
+    },
+    {
+        "cod_telefono": "+39",
+        "sufijo": "VAT"
+    },
+    {
+        "cod_telefono": "+1 784",
+        "sufijo": "VCT"
+    },
+    {
+        "cod_telefono": "+58",
+        "sufijo": "VEN"
+    },
+    {
+        "cod_telefono": "+1 284",
+        "sufijo": "VGB"
+    },
+    {
+        "cod_telefono": "+1 340",
+        "sufijo": "VIR"
+    },
+    {
+        "cod_telefono": "+84",
+        "sufijo": "VNM"
+    },
+    {
+        "cod_telefono": "+678",
+        "sufijo": "VUT"
+    },
+    {
+        "cod_telefono": "+681",
+        "sufijo": "WLF"
+    },
+    {
+        "cod_telefono": "+685",
+        "sufijo": "WSM"
+    },
+    {
+        "cod_telefono": "+967",
+        "sufijo": "YEM"
+    },
+    {
+        "cod_telefono": "+27",
+        "sufijo": "ZAF"
+    },
+    {
+        "cod_telefono": "+260",
+        "sufijo": "ZMB"
+    },
+    {
+        "cod_telefono": "+263",
+        "sufijo": "ZWE"
+    }
+]

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="f200_left">72dp</dimen>
+    <dimen name="f200_right">72dp</dimen>
+
+    <dimen name="rv_left">72dp</dimen>
+    <dimen name="rv_right">72dp</dimen>
+</resources>

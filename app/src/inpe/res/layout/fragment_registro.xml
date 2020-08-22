@@ -1,0 +1,286 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="minsa.formulario.UI.Fragments.RegistroFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            app:layout_constraintTop_toBottomOf="@+id/rlPaciente"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/navigation_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:background="?android:attr/windowBackground"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:menu="@menu/navigation" />
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:visibility="invisible"
+                android:id="@+id/ly_datos"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    app:hintTextAppearance="@style/TextLabel"
+                    android:id="@+id/tiltape_pa"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_height="20dp"
+                            android:text="Apellido Paterno :"
+                            android:textColor="@color/colorRedss"
+                            />
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/tietape_pa"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_spinner"
+                            android:digits="AaBbCcDdEeFfGgHhIiJjKkLlMmNnÑñOoPpQqRrSsTtUuVvWwXxYyZzÁáÉéÍíÓóÚú "
+                            android:inputType="textPersonName" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_height="20dp"
+                            android:text="Apellido Materno :"
+                            android:textColor="@color/colorRedss"
+                            />
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/tietape_ma"
+                            android:layout_weight="1"
+                            android:layout_marginTop="10dp"
+                            android:inputType="textPersonName"
+                            android:digits="AaBbCcDdEeFfGgHhIiJjKkLlMmNnÑñOoPpQqRrSsTtUuVvWwXxYyZzÁáÉéÍíÓóÚú "
+                            android:layout_width="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/bg_spinner"
+                            android:layout_height="40dp"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    app:hintTextAppearance="@style/TextLabel"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_height="20dp"
+                            android:text="Nombres :"
+                            android:textColor="@color/colorRedss"
+                            />
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/tietnombres"
+                            android:layout_width="match_parent"
+                            android:background="@drawable/bg_spinner"
+                            android:layout_height="40dp"
+                            android:inputType="textPersonName"
+                            android:digits="AaBbCcDdEeFfGgHhIiJjKkLlMmNnÑñOoPpQqRrSsTtUuVvWwXxYyZzÁáÉéÍíÓóÚú "
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:visibility="invisible"
+                android:id="@+id/ly_documento"
+                app:hintTextAppearance="@style/TextLabel"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="0dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Numero de Documento :"
+                        android:textColor="@color/colorRedss"
+                        />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/tiet_dni"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/bg_spinner"
+                        android:layout_height="40dp"
+                        android:inputType="number"
+                        android:layout_weight="1"
+                        android:layout_marginRight="5dp"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:layout_height="0dp">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <RadioButton
+                            android:id="@+id/rd_dni"
+                            android:layout_weight="0.8"
+                            android:layout_width="0dp"
+                            android:text="DNI"
+                            android:checked="true"
+                            android:layout_height="match_parent"/>
+                        <RadioButton
+                            android:id="@+id/rd_pass"
+                            android:layout_weight="1.2"
+                            android:layout_width="0dp"
+                            android:text="PASAPORTE"
+                            android:checked="false"
+                            android:layout_height="match_parent"/>
+                        <RadioButton
+                            android:id="@+id/rd_ptp"
+                            android:layout_weight="0.8"
+                            android:layout_width="0dp"
+                            android:text="PTP"
+                            android:checked="false"
+                            android:layout_height="match_parent"/>
+                        <RadioButton
+                            android:id="@+id/rd_ce"
+                            android:layout_weight="1.2"
+                            android:layout_width="0dp"
+                            android:text="CE"
+                            android:checked="false"
+                            android:layout_height="match_parent"/>
+                    </LinearLayout>
+
+                 </LinearLayout>
+
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/btndescarga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:background="@drawable/boton_visualizar"
+                    android:textColor="@color/colorWhite"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Consultar" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_height="match_parent">
+                <Button
+
+                    android:id="@+id/btnF100"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:background="@drawable/boton_visualizar"
+                    android:textColor="@color/colorWhite"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginRight="20dp"
+                    android:text="Consultar" />
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            app:layout_constraintTop_toBottomOf="@+id/rlPaciente"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="match_parent"
+            android:background="@color/colorRedss"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView_interno"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</ScrollView>

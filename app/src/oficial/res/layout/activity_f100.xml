@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.Activity.f100.F100Activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    <RelativeLayout
+        android:id="@+id/rlPaciente"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        android:background="#f6f6f6"
+        android:paddingTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvPaciente"
+            android:layout_marginLeft="@dimen/f200_left"
+            android:layout_marginRight="@dimen/f200_right"
+            android:text="Paciente: Juan Perez"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/llDocumento"
+            android:layout_below="@+id/tvPaciente"
+            android:layout_marginLeft="@dimen/f200_left"
+            android:layout_marginRight="@dimen/f200_right"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvTipoDocumento"
+                android:layout_marginTop="4dp"
+                android:text="Tipo de documento: Carnet de Extranjería"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tvDocumento"
+                android:layout_marginTop="4dp"
+                android:text="Número de documento: 70434202"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <View
+            android:layout_below="@id/llDocumento"
+            android:background="#c8c8c8"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp" />
+    </RelativeLayout>
+
+    <ScrollView
+        app:layout_constraintTop_toBottomOf="@+id/rlPaciente"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/f200_left"
+            android:layout_marginRight="@dimen/f200_right"
+            android:paddingBottom="81dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textfield.TextInputLayout
+                app:hintTextAppearance="@style/TextLabel"
+                android:id="@+id/tilDate"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tietDate"
+                    android:focusable="false"
+                    android:hint="Fecha de ejecución de la prueba rápida (*)"
+                    tools:text="08/11/2019"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                app:hintTextAppearance="@style/TextLabel"
+                android:id="@+id/tilTime"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tietTime"
+                    android:focusable="false"
+                    android:hint="Hora Ejecución de la prueba rápida (*)"
+                    tools:text="08/11/2019"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                app:hintTextAppearance="@style/TextLabel"
+                android:id="@+id/tilMarcaPrueba"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tietMarcaPrueba"
+                    android:hint="Marca de la prueba"
+                    android:inputType="text"
+                    tools:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                app:hintTextAppearance="@style/TextLabel"
+                android:id="@+id/tilLotePrueba"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tietLotePrueba"
+                    android:hint="Lote de la prueba"
+                    android:inputType="text"
+                    tools:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                app:hintTextAppearance="@style/TextLabel"
+                android:id="@+id/tilIndustriaPrueba"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tietIndustriaPrueba"
+                    android:hint="Industria de la prueba"
+                    android:inputType="text"
+                    tools:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                app:hintTextAppearance="@style/TextLabel"
+                android:id="@+id/tilFechaPrueba"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tietFechaPrueba"
+                    android:focusable="false"
+                    android:hint="Fecha de vencimiento de la prueba"
+                    tools:text="08/11/2019"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:text="Procedencia de la solicitud de diagnóstico (*)"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:id="@+id/rlProcedencia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_spinner"
+                android:clickable="true"
+                android:padding="12dp">
+                <TextView
+                    android:id="@+id/tvProcedencia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Seleccionar" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/ic_chevron_down_grey600_24dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:text="Resultado de la prueba rápida (*)"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:id="@+id/rlResultadoPrueba"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_spinner"
+                android:clickable="true"
+                android:padding="12dp">
+                <TextView
+                    android:id="@+id/tvResultadoPrueba"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Seleccionar" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/ic_chevron_down_grey600_24dp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/llContentSegundaPrueba"
+                android:orientation="vertical"
+                tools:visibility="visible"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginTop="16dp"
+                    android:text="Resultado de la Segunda prueba rápida (*)"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RelativeLayout
+                    android:id="@+id/rlResultadoPrueba2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_spinner"
+                    android:clickable="true"
+                    android:padding="12dp">
+                    <TextView
+                        android:id="@+id/tvResultadoPrueba2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="Seleccionar" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/ic_chevron_down_grey600_24dp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llContentSeveridad"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginTop="16dp"
+                    android:text="Clasificación clínica de severidad:(*)"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RelativeLayout
+                    android:id="@+id/rlClinicaSeveridad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_spinner"
+                    android:clickable="true"
+                    android:padding="12dp">
+                    <TextView
+                        android:id="@+id/tvClinicaSeveridad"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="Seleccionar" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/ic_chevron_down_grey600_24dp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llContentRiesgo"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginTop="16dp"
+                    android:text="¿El paciente cumple con alguna condición de riesgo?(*)"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:id="@+id/llRiesgo"
+                    android:layout_marginTop="8dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llContentTrimestre"
+                tools:visibility="visible"
+                android:visibility="gone"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginTop="16dp"
+                    android:text="Embarazo Trimestre (*)"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RelativeLayout
+                    android:id="@+id/rlContentEmbarazoTri"
+                    android:background="@drawable/bg_spinner"
+                    android:clickable="true"
+                    android:padding="12dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/tvEmbarazoTri"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="Seleccionar" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/ic_chevron_down_grey600_24dp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                app:hintTextAppearance="@style/TextLabel"
+                android:id="@+id/tilOtroRiesgo"
+                android:layout_marginTop="16dp"
+                tools:visibility="visible"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tietOtroRiesgo"
+                    android:hint="Otros, Especificar (*)"
+                    android:inputType="text"
+                    tools:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/tvMensaje"
+                android:background="@drawable/bg_message_f100"
+                android:layout_marginTop="16dp"
+                tools:visibility="visible"
+                android:visibility="gone"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="8dp"
+                tools:text="Requiere aislamiento domiciliario. Repetir la prueba rápida en 7 días. Se realizará seguimiento remoto. No es necesario continuar con F200."
+                android:textColor="#1c606a"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:id="@+id/llContentPCR"
+                android:orientation="vertical"
+                tools:visibility="visible"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginTop="16dp"
+                    android:text="¿Se aplicará PCR ahora?"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <RadioGroup
+                    android:id="@+id/rgPCR"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:id="@+id/rbSiPCR"
+                        android:text="Si"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:id="@+id/rbNoPCR"
+                        android:text="No"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvMensaje2"
+                android:background="@drawable/bg_message_f100"
+                android:layout_marginTop="16dp"
+                tools:visibility="visible"
+                android:visibility="gone"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="8dp"
+                android:text="Reportar a DGOS para programar visita PCR."
+                android:textColor="#1c606a"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                app:hintTextAppearance="@style/TextLabel"
+                android:id="@+id/tilObservacion"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tietObservacion"
+                    android:hint="Observación"
+                    android:inputType="text"
+                    tools:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/efab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Guardar"
+        android:textColor="@color/colorWhite"
+        android:theme="@style/Theme.MaterialComponents.Light"
+        app:backgroundTint="@color/colorEFAB"
+        app:icon="@drawable/ic_content_save_white_24dp"
+        app:iconTint="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

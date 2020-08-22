@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.Activity.ListarActivity">
+
+    <ImageView
+        android:id="@+id/LivAteTel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/banners"
+        app:srcCompat="@drawable/banners"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/LtvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/formul_titulox"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        app:fontFamily="@font/arial"
+        app:layout_constraintTop_toBottomOf="@+id/LivAteTel"
+        tools:layout_editor_absoluteX="80dp" />
+
+    <ListView
+        android:id="@+id/LlvResult"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:dividerHeight="1dp"
+        android:textColor="@android:color/background_dark"
+        android:textColorLink="@android:color/background_dark"
+        android:background="@drawable/fondo_app"
+        app:layout_constraintBottom_toTopOf="@+id/LtvNuevos"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LtvTitulo" />
+
+    <TextView
+        android:id="@+id/LtvNuevos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/formul_nuevosx"
+        android:textColor="@color/colorRedss"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/arial"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:gravity="center" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

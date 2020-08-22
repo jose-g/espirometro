@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    card_view:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:id="@+id/linearlayout"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgResEstado"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="7dp"
+            android:contentDescription="Estado"
+            android:tag="imgResEstado"
+            android:src="@drawable/pendingfile2"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvResTitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:text="titulo"
+                android:textColor="#616161"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvResNombres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="descripcion"
+                android:textSize="15sp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:id="@+id/tvResCodigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="descripcion"
+                android:textSize="15sp"
+                android:visibility="gone"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:id="@+id/tvResArchivo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="descripcion"
+                android:textSize="15sp"
+                android:visibility="gone"
+                android:textStyle="italic"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_row_delete"
+                android:layout_width="16dp"
+                android:layout_height="20dp"
+                android:layout_margin="7dp"
+                android:contentDescription="descripon"
+                android:src="@drawable/dobletick" />
+
+            <ImageView
+                android:id="@+id/img_row_add"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="7dp"
+                android:contentDescription="descripcion"
+                android:src="@drawable/menu50"
+                android:tag="img_row_add"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

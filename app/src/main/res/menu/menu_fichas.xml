@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_share"
+        android:enabled="true"
+        android:title="Acciones"
+        app:showAsAction="always|withText">
+        <menu>
+            <item
+                android:id="@+id/action_send"
+                android:icon="@drawable/ic_file_send_outline_black_24dp"
+                android:title="Enviar" />
+            <item
+                android:id="@+id/action_update"
+                android:icon="@drawable/ic_cellphone_arrow_down_black_24dp"
+                android:title="Actualizar" />
+        </menu>
+    </item>
+</menu>

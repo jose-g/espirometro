@@ -1,0 +1,83 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "minsa.formulario"
+        minSdkVersion 17
+        targetSdkVersion 29
+        versionCode 6
+        versionName "1.5"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        debug {
+            buildConfigField "String", "BASE_URL", "\"https://dapimanager.minsa.gob.pe:8243\""
+            buildConfigField "String", "BASE_SSL", "\"dapimanager.minsa.gob.pe\""
+            buildConfigField "String", "TOKEN_SSL", "\"Basic eWQ1Z0VhTFJHOW5FWGpmbzJaSjFPOHNXemJzYTpta21OaWhrN1htVHR2ak52M19GaEpzNVJNZEVh\""
+            buildConfigField "String", "USR_TK_SLL", "\"usr_movil_siscovid\""
+            buildConfigField "String", "PWD_TK_SLL", "\"M1ns4qalidadminsa.gob.pe\""
+        }
+        staging {
+            initWith(buildTypes.debug)
+            buildConfigField "String", "BASE_URL", "\"https://qapimanager.minsa.gob.pe:8243\""
+            buildConfigField "String", "BASE_SSL", "\"qapimanager.minsa.gob.pe\""
+            buildConfigField "String", "TOKEN_SSL", "\"Basic UE5Da0dqbDFmSWl0VkR1UHpMcFJkUFBKcnVZYTpDUl9wMEpaOGdsanBFT3QxMVduRmZRY0xZSEFh\""
+            buildConfigField "String", "USR_TK_SLL", "\"usr_siscovid\""
+            buildConfigField "String", "PWD_TK_SLL", "\"M1ns4qalidadminsa.gob.pe\""
+        }
+        release {
+            buildConfigField "String", "BASE_URL", "\"https://apimanager.minsa.gob.pe:8243\""
+            buildConfigField "String", "BASE_SSL", "\"apimanager.minsa.gob.pe\""
+            buildConfigField "String", "TOKEN_SSL", "\"Basic WDJmOGVfNWJobEY1MF9kTVpNVGdVRHpPelowYTpfRFZRN1NRYnNLUHZzNVFBREJ5ak95bV8yOWth\""
+            buildConfigField "String", "USR_TK_SLL", "\"usr_movil_siscovid\""
+            buildConfigField "String", "PWD_TK_SLL", "\"M1ns4qalidadminsa.gob.pe\""
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    flavorDimensions "default"
+    productFlavors {
+        oficial {
+            applicationId "minsa.formulario"
+        }
+        inpe {
+            applicationId "minsa.formulario.inpe"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.android.material:material:1.1.0-alpha07'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.android.volley:volley:1.1.1'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
+    implementation 'com.jakewharton:butterknife:10.2.1'
+    implementation 'androidx.vectordrawable:vectordrawable:1.1.0'
+    implementation 'androidx.navigation:navigation-fragment:2.2.2'
+    implementation 'androidx.navigation:navigation-ui:2.2.2'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.1'
+    implementation 'com.github.GrenderG:Toasty:1.4.2'
+    implementation 'info.androidhive:barcode-reader:1.1.5'
+    implementation 'com.google.android.gms:play-services-vision:20.1.0'
+    implementation 'org.jsoup:jsoup:1.11.1'
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+}

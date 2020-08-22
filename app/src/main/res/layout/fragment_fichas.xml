@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context=".UI.Fragments.FichasFragment">
+
+    <LinearLayout
+        tools:visibility="visible"
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <SearchView
+            android:id="@+id/svSearch"
+            android:layout_below="@+id/toolbar"
+            android:background="@drawable/bg_searchview"
+            android:queryHint="Ingresar nombre del paciente"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/f200_left"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+        </SearchView>
+
+        <ImageView
+            android:id="@+id/ivSearch"
+            android:background="@drawable/bg_button_search"
+            android:src="@drawable/ic_magnify_white_24dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_marginRight="@dimen/f200_right"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp" />
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvDatoPaciente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv200"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv300"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorWhite"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.Fragments.RegistroFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="@dimen/f200_left"
+            android:layout_marginRight="@dimen/f200_right"
+            android:text="Tipo de documento"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:id="@+id/rlContentTipDoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="@dimen/f200_left"
+            android:layout_marginRight="@dimen/f200_right"
+            android:background="@drawable/bg_spinner"
+            android:clickable="true"
+            android:padding="12dp">
+            <TextView
+                android:id="@+id/tvTipDoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Seleccionar" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_chevron_down_grey600_24dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputLayout
+                app:hintTextAppearance="@style/TextLabel"
+                android:id="@+id/tilNumberDocument"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="@dimen/f200_left"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tietNumberDocument"
+                    android:hint="Número de documento"
+                    android:inputType="number"
+                    android:imeOptions="actionSearch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <ImageView
+                android:id="@+id/ivQR"
+                android:background="@drawable/bg_button_search"
+                android:src="@drawable/ic_qrcode_scan_white_24dp"
+                tools:visibility="visible"
+                android:visibility="gone"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp" />
+
+            <ImageView
+                android:id="@+id/ivSearch"
+                android:background="@drawable/bg_button_search"
+                android:src="@drawable/ic_magnify_white_24dp"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp" />
+
+            <ImageView
+                android:id="@+id/ivClear"
+                android:background="@drawable/bg_button_search"
+                android:src="@drawable/ic_close_white_24dp"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:layout_marginRight="@dimen/f200_right"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp" />
+
+        </LinearLayout>
+
+        <View
+            android:background="#c8c8c8"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <TextView
+            android:id="@+id/tvConglomerado"
+            android:background="@drawable/bg_conglomerado"
+            tools:visibility="visible"
+            android:visibility="gone"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/f200_left"
+            android:layout_marginRight="@dimen/f200_right"
+            android:paddingTop="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="8dp"
+            android:text="* Usted se encuentra en el conglomerado: GRAN MERCADO CONZAC"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/llContentFichas"
+            tools:visibility="visible"
+            android:visibility="gone"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/llF100"
+                android:clickable="true"
+                android:background="@drawable/bg_f100"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingTop="12dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="12dp"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/ic_flask_empty_outline_white_48dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:gravity="center"
+                    android:text="F100: Prueba Rápida"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llF200"
+                android:clickable="true"
+                android:background="@drawable/bg_f200"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:paddingTop="12dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="12dp"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/ic_eye_white_48dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:gravity="center"
+                    android:text="F200: Investigación Epidemiológica"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llF300"
+                android:clickable="true"
+                android:background="@drawable/bg_f300"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="81dp"
+                android:paddingTop="12dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="12dp"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/ic_medical_bag_white_48dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:gravity="center"
+                    android:text="F300: Seguimiento Clínico"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
